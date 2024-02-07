@@ -18,7 +18,13 @@
 <link rel="icon" type="image/x-icon" href="images/unnamed-removebg-preview.png">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<link rel="stylesheet" href="style.css" />
 
+<!-- Fontawesome CDN Link -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+/>
 <script src="https://www.youtube.com/iframe_api"></script>
 
 <style>
@@ -58,29 +64,85 @@
 }
 
 
+.popup {
+  display: none;
+  position: absolute;
+  top: 520%;
+  right: 50%;
+  transform: translate(50%, -50%); /* Yatayda 50%, dikeyde -50% kaydır */
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+  z-index: 9999; /* Sayfanın içeriğinin üstünde olması için */
+}
+
+
+
+.tick-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.navbar {
+      background-color: #ffffff; /* Arka plan rengi */
+    }
+
+    .navbar-brand img {
+      max-height: 50px; /* Logo yüksekliği */
+    }
+
+    .navbar-nav .nav-link {
+      color: #333333; /* Link rengi */
+      font-weight: bold; /* Kalın font */
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: #007bff; /* Hover rengi */
+    }
+
+    .navbar-nav .nav-item .active {
+  font-weight: bold;
+}
+
+
 </style>
 
 </head>
 
 <body>
+
+
+
+
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg" >
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="myNavbar">
     <div class="container">
-        <a class="navbar-brand navbar-logo" href="#anasayfa">
-          <img src="images/unnamed-removebg-preview.png" alt="logo" class="logo-1" height="80" width="90">
-        </a>    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="fas fa-bars"></span> </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item"> <a class="nav-link" href="#anasayfa" data-scroll-nav="0">AnaSayfa</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#about" data-scroll-nav="1">Hakkımızda</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#service" data-scroll-nav="2">Hizmetler</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#refrance" data-scroll-nav="4">Referanslar</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#sss" data-scroll-nav="5">SSS</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#iletisim" data-scroll-nav="6">iLETİŞİM</a> </li>
-      </ul>
+      <a class="navbar-brand" href="#anasayfa">
+        <img src="images/unnamed-removebg-preview.png" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"> <a class="nav-link" href="#anasayfa">AnaSayfa</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#about">Hakkımızda</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#service">Hizmetler</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#refrance">Referanslar</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#sss">SSS</a> </li>
+          <li class="nav-item"> <a class="nav-link iletisim-link" href="#iletisim">İletişim</a> </li> <!-- İletişim linki için özel sınıf eklendi -->
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
 <!-- End Navbar -->
 <!-------Banner Start------->
 <section class="banner" data-scroll-index='0' id="anasayfa">
@@ -111,7 +173,7 @@
                   </div>
     </div>
   </div>
-  <span class="svg-wave"> <img class="svg-hero" src="images/"> </span> </section>
+  <span class="svg-wave"> </span> </section>
 
 <!-------Banner End------->
 
@@ -381,62 +443,104 @@
 
 <!-------Contact Start------->
 <section class="contact section-padding" data-scroll-index='6' id="iletisim">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="sectioner-header text-center">
-          <h3>Bizimle İletişime Geçin</h3>
-          <span class="line"></span>
-          <p>Her konuda size yardımcı olabilmek adına, ürün ve hizmetlerimizle ilgili öneri ve taleplerinizi değerlendirmek için buradayız. Tüm çözüm kanallarımızla sizlere en kısa sürede yanıt verebilmek amacıyla bize dilediğiniz yöntemle ulaşabilir, tüm sorularınıza hızlıca çözüm bulabilirsiniz</p>
-        </div>
-        <div class="section-content">
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-8">
-              <form id="contact_form" action="">
-                <div class="row">
-                  <div class="col">
-                    <input type="text" id="your_name" class="form-input w-100" name="full-name" placeholder="Adınız ve Soyadınız" required>
-                  </div>
-                  <div class="col">
-                    <input type="email" id="email" class="form-input w-100" name="email" placeholder="E-Mail Adresiniz" required>
-                  </div>
-                </div>
-                <input type="text" id="subject" class="form-input w-100" name="subject" placeholder="Konuyu Giriniz">
-                <textarea class="form-input w-100" id="message" placeholder="Mesajınızı bırakınız, en kısa sürede geri dönüş yapacağız." name="message"></textarea>
-                <button class="btn-grad w-100 text-uppercase" type="submit"   name="button">Gönder ></button>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="sectioner-header text-center">
+            <h3>Bizimle İletişime Geçin</h3>
+            <span class="line"></span>
+            <p>Her konuda size yardımcı olabilmek adına, ürün ve hizmetlerimizle ilgili öneri ve taleplerinizi değerlendirmek için buradayız. Tüm çözüm kanallarımızla sizlere en kısa sürede yanıt verebilmek amacıyla bize dilediğiniz yöntemle ulaşabilir, tüm sorularınıza hızlıca çözüm bulabilirsiniz</p>
+          </div>
+          <div class="section-content">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-8">
 
 
-              </form>
+                <form id="contact_form" method="post" action="{{ route('newcontroller.store') }}" action="">
+                  @csrf
+                  <div class="row">
+                    <div class="col">
+                      <input type="text" id="your_name" class="form-input w-100" name="nameSurname" placeholder="Adınız ve Soyadınız" required>
+                    </div>
+                    <div class="col">
+                      <input type="email" id="email" class="form-input w-100" name="email" placeholder="E-Mail Adresiniz" required>
+                    </div>
+                  </div>
+                  <input type="text" id="subject" class="form-input w-100" name="title" placeholder="Konuyu Giriniz">
+                  <textarea class="form-input w-100" id="message" placeholder="Mesajınızı bırakınız, en kısa sürede geri dönüş yapacağız." name="message"></textarea>
+
+                  <button id="submitBtn" class="btn-grad w-100 text-uppercase" name="button">Gönder ></button>
+
+
+                  <button id="hiddenBtn" style="display: none;">Hidden Button</button>
+
+
+
+                </form>
+
+
+
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-4">
-              <div class="contact-info white">
-                <div class="contact-item media"> <i class="fa fa-mobile media-left media-right-margin"></i>
-                  <div class="media-body">
-                    <p class="text-uppercase">Telefon Numarası</p>
-                    <p class="text-uppercase">0 536 551 58 34</p>
+              <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="contact-info white">
+                  <div class="contact-item media"> <i class="fa fa-mobile media-left media-right-margin"></i>
+                    <div class="media-body">
+                      <p class="text-uppercase">Telefon Numarası</p>
+                      <p class="text-uppercase">0 536 551 58 34</p>
+                    </div>
+                  </div>
+                  <div class="contact-item media"> <i class="fa fa-mobile media-left media-right-margin"></i>
+                    <div class="media-body">
+                      <p class="text-uppercase">Telefon Numarsı</p>
+                      <p class="text-uppercase"><a class="text-white"> (0216) 232 26 56</a> </p>
+                    </div>
+                  </div>
+                  <div class="contact-item media"> <i class="fa fa-envelope media-left media-right-margin"></i>
+                    <div class="media-body">
+                      <p class="text-uppercase">E-mail</p>
+                      <p class="text-lowercase"><a class="text-white" href="mailto:info@mfeteknoloji.com ">info@mfeteknoloji.com </a> </p>
+                    </div>
                   </div>
                 </div>
-                <div class="contact-item media"> <i class="fa fa-mobile media-left media-right-margin"></i>
-                  <div class="media-body">
-                    <p class="text-uppercase">Telefon Numarsı</p>
-                    <p class="text-uppercase"><a class="text-white"> (0216) 232 26 56</a> </p>
-                  </div>
-                </div>
-                <div class="contact-item media"> <i class="fa fa-envelope media-left media-right-margin"></i>
-                  <div class="media-body">
-                    <p class="text-uppercase">E-mail</p>
-                    <p class="text-lowercase"><a class="text-white" href="mailto:info@mfeteknoloji.com ">info@mfeteknoloji.com </a> </p>
-                  </div>
-                </div>
-
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+<!-- Popup -->
+
+
+
+<div id="popup" class="popup" align="center">
+    <img src="images/pngwing.com (1).png" alt="Tik İşareti" class="tick-icon">
+    <p>Mesajınız alınmıştır, teşekkür ederiz.</p>
+</div>
+
+
+
+
+<script>
+    // Bu kod, sayfanın yüklenmesini bekler ve sonra pop-up mesajını gösterir
+    document.addEventListener("DOMContentLoaded", function() {
+        // Show the popup
+
+        document.getElementById('popup').style.display = 'block';
+
+        // Hide the popup after 3 seconds
+        setTimeout(function() {
+            document.getElementById('popup').style.display = 'none';
+        }, 1000);
+    });
+</script>
+
+
+
+
+
+
+
 
 <!-------Contact End------->
 
@@ -506,6 +610,15 @@
 </script>
 
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function(){
+  $('#myNavbar a').on('click', function(){
+    $('#myNavbar').find('.active').removeClass('active');
+    $(this).addClass('active');
+  });
+});
+</script>
 
 
 
