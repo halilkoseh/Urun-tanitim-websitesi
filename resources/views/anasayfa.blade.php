@@ -20,7 +20,7 @@
 <nav class="navbar navbar-expand-lg" id="myNavbar" style="color: black;">
     <div class="container">
       <a class="navbar-brand" href="#anasayfa">
-        <img src="images/unnamed-removebg-preview.png" alt="logo">
+        <img src="images/unnamed-removebg-preview1.png" alt="logo">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
