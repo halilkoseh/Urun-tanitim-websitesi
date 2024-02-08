@@ -15,4 +15,14 @@ Route::get('/', function () {
 
 Route::post('/store',[newcontroller::class,'store'])->name('newcontroller.store');
 
+Route::get('/flag', function () {
+    return "still working on it";
+})->name('flag');
+
+
+Route::get('/anasayfa', function () {
+    return view('/anasayfa');
+})->name('anasayfa');
+
+
 
