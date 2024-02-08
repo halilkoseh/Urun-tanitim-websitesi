@@ -28,12 +28,18 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"> <a class="nav-link" href="#anasayfa">AnaSayfa</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#about">Hakkımızda</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#service">Hizmetler</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#refrance">Referanslar</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#sss">SSS</a> </li>
-          <li class="nav-item"> <a class="nav-link iletisim-link" href="#iletisim">İletişim</a> </li>
+          <li class="nav-item">     <a class="page-scroll"
+            aria-label="Toggle navigation" href="#anasayfa">AnaSayfa</a> </li>
+          <li class="nav-item"> <a class="page-scroll"
+            aria-label="Toggle navigation" href="#about">Hakkımızda</a> </li>
+          <li class="nav-item"> <a class="page-scroll"
+            aria-label="Toggle navigation" href="#service">Hizmetler</a> </li>
+          <li class="nav-item"> <a class="page-scroll"
+            aria-label="Toggle navigation" href="#refrance">Referanslar</a> </li>
+          <li class="nav-item"> <a class="page-scroll"
+            aria-label="Toggle navigation" href="#sss">SSS</a> </li>
+          <li class="nav-item"> <a class="page-scroll"
+            aria-label="Toggle navigation" href="#iletisim">İletişim</a> </li>
 
 
 
@@ -405,27 +411,46 @@
 
 
 
-<section class="download section-padding">
+
+
+<section class="download section-padding" >
     <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="sectioner-header text-center white">
-            <h3>Mobil Uygulamamızı Edinin</h3>
-            <span class="line"></span>
-            <p class="white"><a href="https://extrasistem.com"><span style="color: black;">Extra Sistem</span></a> 'i tüm uygulama mağazalarından indirebilirsiniz.</p>
-          </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="sectioner-header text-center white">
+                    <h3>Mobil Uygulamamızı Edinin</h3>
+                    <span class="line"></span>
+                    <p class="white"><a href="https://extrasistem.com"><span style="color: black;">Extra Sistem</span></a> 'i tüm uygulama mağazalarından indirebilirsiniz.</p>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="section-content text-center">
+                    <ul>
+                        <li><a href="https://apps.apple.com/app/id6476713470"><img src="images/appstore.png" class="wow fadeInUp" data-wow-delay="0.4s"/></a></li>
+                        <li><a href="https://play.google.com/store/apps/details?id=com.mfeteknoloji"><img src="images/playstore.png" class="wow fadeInUp" data-wow-delay="0.7s"/></a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="col-md-12">
-          <div class="section-content text-center">
-            <ul>
-              <li><a href="https://apps.apple.com/app/id6476713470"><img src="images/appstore.png" class="wow fadeInUp" data-wow-delay="0.4s"/></a></li>
-              <li><a href="https://play.google.com/store/apps/details?id=com.mfeteknoloji"><img src="images/playstore.png" class="wow fadeInUp" data-wow-delay="0.7s"/></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
     </div>
-  </section>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <section class="contact section-padding" data-scroll-index='6' id="iletisim">
     <div class="container">
@@ -694,6 +719,55 @@ $(document).ready(function(){
 
 
 
+
+
+
+
+
+<div class="cookie-popup" id="cookiePopup">
+    <p>Sitemizde teknik olarak zorunlu olan çerezler kullanılmakta ve sizlere daha iyi bir hizmet sunabilmek için işlenmektedir. <br> Detaylı bilgi için <a href="https://www.kvkk.gov.tr/SharedFolderServer/CMSFiles/fb193dbb-b159-4221-8a7b-3addc083d33f.pdf" style="color:#ACADAF;">KVKK Aydınlatma Metni</a>'ni inceleyebilirsiniz.</p>
+    <button class="cookie-btn" onclick="acceptCookies()">Anladım, kabul ediyorum</button>
+</div>
+<script>
+   function getCookie(name) {
+    let matches = document.cookie.match(new RegExp("(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"));
+    return matches ? decodeURIComponent(matches[1]) : undefined;
+}
+
+function setCookie(name, value, options = {}) {
+    options = {
+        path: '/',
+        ...options
+    };
+
+    if (options.expires instanceof Date) {
+        options.expires = options.expires.toUTCString();
+    }
+
+    let updatedCookie = encodeURIComponent(name) + "=" + encodeURIComponent(value);
+
+    for (let optionKey in options) {
+        updatedCookie += "; " + optionKey;
+        let optionValue = options[optionKey];
+        if (optionValue !== true) {
+            updatedCookie += "=" + optionValue;
+        }
+    }
+
+    document.cookie = updatedCookie;
+}
+
+function acceptCookies() {
+    setCookie('acceptedCookies', 'true', { expires: new Date(Date.now() + 365 * 24 * 60 * 60 * 1000) });
+    document.getElementById('cookiePopup').style.display = 'none';
+}
+
+window.onload = function() {
+    if (!getCookie('acceptedCookies')) {
+        document.getElementById('cookiePopup').style.display = 'block';
+    }
+}
+</script>
 
 
 
