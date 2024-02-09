@@ -439,7 +439,7 @@ input {
 	cursor:pointer;
 }
 .contact-info {
-	padding: ;
+	padding: 0;
 	border-radius: 1px;
 	background: #7a60ff;
 	background: linear-gradient(to right, #6C757D,#6C757D);

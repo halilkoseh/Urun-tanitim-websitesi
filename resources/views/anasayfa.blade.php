@@ -418,7 +418,7 @@
     <!-- Add jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<div class="faq-section">
+<div class="faq-section" data-scroll-index='5'>
     <div class="container">
        <div class="row">
           <div class="col-md-12">
