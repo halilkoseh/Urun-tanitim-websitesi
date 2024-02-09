@@ -461,19 +461,20 @@
 
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
  <script src="script.js"></script>
-<script> // jQuery for FAQ toggle
-    $(document).ready(function(){
-        $(".faq-item .question").click(function(){
-            $(this).toggleClass('active').next('.answer').slideToggle();
-            $(".faq-item .question").not(this).removeClass('active').next('.answer').slideUp();
-        });
-    });
-</script>
+ <script>
+     $(document).ready(function(){
+         // Tüm cevapları gizle
+         $(".faq-item .answer").hide();
 
-
-
-
-
+         // Soruya tıklama olayını tanımla
+         $(".faq-item .question").click(function(){
+             // Tıklanan sorunun cevabını aç veya kapat
+             $(this).toggleClass('active').next('.answer').slideToggle();
+             // Diğer soruların cevaplarını kapat
+             $(".faq-item .question").not(this).removeClass('active').next('.answer').slideUp();
+         });
+     });
+ </script>
 
 
 
@@ -503,36 +504,38 @@
 </div>
 </header>
 <!-- end banner -->
-<!-- three_box  -->
-<div id="service" class="three_box">
-<div class="container">
-<div class="row">
-  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-     <div class="Soft-box">
-        <i><img src="images/service1.png" alt="#" /></i>
-        <h3> Software</h3>
-        <p>It is a long established fact that a reader will be distracted by the readable contentt has a more-or-less norf letters,</p>
-     </div>
-  </div>
-  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-     <div class="Soft-box">
-        <i><img src="images/service2.png" alt="#" /></i>
-        <h3>For Mobile</h3>
-        <p>It is a long established fact that a reader will be distracted by the readable contentt has a more-or-less norf letters,</p>
-     </div>
-  </div>
-  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-     <div class="Soft-box">
-        <i><img src="images/service3.png" alt="#" /></i>
-        <h3>For Computer</h3>
-        <p>It is a long established fact that a reader will be distracted by the readable contentt has a more-or-less norf letters,</p>
-     </div>
-  </div>
-</div>
-</div>
-</div>
-<!-- end three_box -->
+
 <!-- weare -->
+
+
+
+
+
+<section class="download section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center white">
+          <h3>Mobil Uygulamamızı Edinin</h3>
+          <span class="line"></span>
+          <p class="white"><a href="https://extrasistem.com"><span style="color: black;">Extra Sistem</span></a> 'i
+            tüm uygulama mağazalarından indirebilirsiniz.</p>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="section-content text-center">
+          <ul>
+            <li><a href="https://apps.apple.com/app/id6476713470"><img src="images/appstore.png"
+                  class="wow fadeInUp" data-wow-delay="0.4s" /></a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=com.mfeteknoloji"><img
+                  src="images/playstore.png" class="wow fadeInUp" data-wow-delay="0.7s" /></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <section class="client_section layout_padding" data-scroll-index='4' id="refrance">
 
@@ -584,43 +587,72 @@
 
       <p>   <br>
         <br>
-        <br>  <br> <br> <br>  </p>
+        <br>  <br> <br> <span class="line"></span><br>  </p>
 
 
 
 
-
-
-
-
-
-        <section class="download section-padding">
+        <div id="service" class="three_box">
             <div class="container">
               <div class="row">
-                <div class="col-md-12">
-                  <div class="sectioner-header text-center white">
-                    <h3>Mobil Uygulamamızı Edinin</h3>
-                    <span class="line"></span>
-                    <p class="white"><a href="https://extrasistem.com"><span style="color: black;">Extra Sistem</span></a> 'i
-                      tüm uygulama mağazalarından indirebilirsiniz.</p>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                  <div class="Soft-box">
+                    <i><img src="images/service1.png" alt="Service 1" /></i>
+                    <h3>Software</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable contentt has a more-or-less norf letters,</p>
                   </div>
                 </div>
-                <div class="col-md-12">
-                  <div class="section-content text-center">
-                    <ul>
-                      <li><a href="https://apps.apple.com/app/id6476713470"><img src="images/appstore.png"
-                            class="wow fadeInUp" data-wow-delay="0.4s" /></a></li>
-                      <li><a href="https://play.google.com/store/apps/details?id=com.mfeteknoloji"><img
-                            src="images/playstore.png" class="wow fadeInUp" data-wow-delay="0.7s" /></a></li>
-                    </ul>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                  <div class="Soft-box">
+                    <i><img src="images/service2.png" alt="Service 2" /></i>
+                    <h3>For Mobile</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable contentt has a more-or-less norf letters,</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                  <div class="Soft-box">
+                    <i><img src="images/service3.png" alt="Service 3" /></i>
+                    <h3>For Computer</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable contentt has a more-or-less norf letters,</p>
                   </div>
                 </div>
               </div>
             </div>
-          </section>
+          </div>
 
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    var elementsToShow = document.querySelectorAll('.col-xl-4');
 
+    function loop() {
+        elementsToShow.forEach(function(element) {
+            if (isElementInViewport(element)) {
+                element.classList.add('animate');
+            } else {
+                element.classList.remove('animate');
+            }
+        });
 
+        scroll(loop);
+    }
+
+    loop();
+
+    function isElementInViewport(el) {
+        var rect = el.getBoundingClientRect();
+        return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+    }
+
+    function scroll(callback) {
+        window.addEventListener('scroll', callback);
+    }
+});
+</script>
 
 
 

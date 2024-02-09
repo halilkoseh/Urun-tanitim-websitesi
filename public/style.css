@@ -1452,7 +1452,7 @@ body {
 }
 
 .three_box .Soft-box i:hover {
-    background: #000;
+    background: #343A40;
     transition: ease-in all 0.5s;
 }
 
@@ -1460,7 +1460,7 @@ body {
     padding: 20px 0px 20px 0px;
     font-size: 30px;
     line-height: 30px;
-    color: #1f1716;
+    color: #343A40;
     display: block;
     font-weight: 500;
 }
@@ -1474,6 +1474,43 @@ body {
 .three_box .Soft-box p {
     font-size: 17px;
     line-height: 30px;
-    color: #1f1716;
+    color:#ACADAF;
+}
+.Soft-box {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
 }
 
+.Soft-box img {
+    max-width: 100%;
+}
+
+.Soft-box h3 {
+    margin-top: 20px;
+}
+
+.Soft-box p {
+    margin-top: 10px;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.col-xl-4 {
+    opacity: 0;
+    transition: opacity 2.5s ease;
+}
+
+.col-xl-4.animate {
+    opacity: 1;
+}
