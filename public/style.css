@@ -40,7 +40,7 @@ h6 {
 	z-index: 1030;
 }
 .navbar .active {
-	color: #343A40 !important;
+	color: #E11344 !important;
 }
 .navbar .navbar-brand {
 }
@@ -49,13 +49,13 @@ h6 {
 	padding: 0;
 }
 .navbar .nav-item a {
-	color: #CBCBCB;
+	color: #3c3e41;
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 13px;
 }
 .navbar .nav-item a:hover {
-	color: #343A40;
+	color: #e0dada;
 }
 .navbar .nav-link {
 	position: relative;
@@ -658,7 +658,7 @@ h3 {
 .popup {
   display: none;
   position: absolute;
-  top: 550%;
+  top: 590%;
   right: 50%;
   transform: translate(50%, -50%);
   background-color: white;
@@ -1022,3 +1022,80 @@ body {
 .cookie-btn:hover {
     background-color: #e55e00;
 }
+
+
+
+  .client_section .heading_container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 25px;
+  }
+
+  .client_section .detail-box {
+    text-align: center;
+    margin: 25px 15px; /* Adjusted margin values */
+    padding: 45px 65px 35px 65px;
+    -webkit-box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .client_section .detail-box h4 {
+    font-weight: bold;
+  }
+
+  .client_section .detail-box p {
+    margin-top: 50px;
+    margin-bottom: 45px;
+  }
+
+
+  .client_section .carousel-control-next {
+    top: 85%;
+    width: 65px;
+    height: 65px;
+    border: none;
+    border-radius: 100%;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position: center;
+    background-color: #ACADAF;
+    margin: 2px;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+
+
+
+  .client_section .carousel-control-prev
+  {
+    top: 55%;
+    width: 65px;
+    height: 65px;
+    border: none;
+    border-radius: 100%;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position: center;
+    background-color: #ACADAF;
+    margin: 2px;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+
+
+  .client_section .carousel-control-prev {
+    background-image: url(images/prev-angle.png);
+  }
+
+  .client_section .carousel-control-next {
+    background-image: url(images/next-angle.png);
+  }
+
+  .heading_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
