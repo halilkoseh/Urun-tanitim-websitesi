@@ -1,37 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojione/4.5.0/emojione.min.css">
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-  <link rel="stylesheet" href="animate.css" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
-    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-  <!-- Font Google -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extra Sistem</title>
+    <link rel="icon" href="images/unnamed-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojione/4.5.0/emojione.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.17.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
-
-
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
-
-
-
-
-
-  <title>Extra Sistem</title>
-  <link rel="icon" href="images/unnamed-removebg-preview.png" type="image/x-icon">
-
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -194,23 +182,98 @@
     </div>
   </section>
 
-  <section class="video-section prelative text-center white">
-    <div class="section-padding video-overlay">
-      <div class="container">
-        <h2>Tanıtımı İzle</h2> <br>
-        <img src="images/video-lesson.png" onclick="openVideoPopup()" width="117" height="117" muted>
-        <div class="modal" id="videoModal">
-          <div class="modal-content">
-            <span class="close" onclick="closeVideoPopup()">&times;</span>
-            <video width="100%" height="100%" controls muted>
-              <source src="images/videoplayback.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+
+
+
+
+  <div class="tabs">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="tabs-container">
+
+                    <!-- Tabs Links -->
+                    <ul class="nav nav-tabs" id="cedoTabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true"><i class="far fa-clock"></i>Schedule</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false"><i class="fas fa-list"></i>Tracking</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="nav-tab-3" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false"><i class="far fa-calendar-alt"></i>Organize</a>
+                        </li>
+                    </ul>
+                    <!-- end of tabs links -->
+
+                    <!-- Tabs Content -->
+                    <div class="tab-content" id="cedoTabsContent">
+                        <!-- Tab -->
+                        <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
+                            <p><strong>Schedule tasks</strong> to keep track of their completion. Sync provides multiple scheduling options including alarms and reminders.</p>
+                            <ul class="list-unstyled li-space-lg">
+                                <li class="media">
+                                    <i class="far fa-check-square"></i>
+                                    <div class="media-body">You can always add new tasks or change the settings of existing ones in your calendar view or the app control panel</div>
+                                </li>
+                                <li class="media">
+                                    <i class="far fa-check-square"></i>
+                                    <div class="media-body">It's easy to stay focused on your most important daily activities that will get you closer to meeting your goals</div>
+                                </li>
+                                <li class="media">
+                                    <i class="far fa-check-square"></i>
+                                    <div class="media-body">Use phone reminders to free up your long term memory which will reduce stress and make you more productive</div>
+                                </li>
+                            </ul>
+                        </div> <!-- end of tab-pane -->
+                        <!-- end of tab -->
+
+                        <!-- Tab -->
+                        <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
+                            <p><strong>Keep track of everything</strong> and analyse your progress while using the app. In less than a month you should be seeing improved results when it comes to time management and task prioritization</p>
+                            <p><strong>Anyone can enjoy the app</strong> no matter their gender, age, occupation or location in the world. Sync's algorithms have been built to be flexible and functional for any person in the world</p>
+                            <p><strong>Achieve the impossible</strong> just by carefully monitoring your progress and keeping the app updated with daily operations. It's easier than you think and it only takes a couple of minutes</p>
+                        </div> <!-- end of tab-pane -->
+                        <!-- end of tab -->
+
+                        <!-- Tab -->
+                        <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="tab-3">
+                            <p><strong>Use the power of social interactivity</strong> to keep you motivated and focused on your daily and long term goals. It's revolutionary</p>
+                            <ul class="list-unstyled li-space-lg">
+                                <li class="media">
+                                    <i class="far fa-check-square"></i>
+                                    <div class="media-body">Commiting to something in front of a crowd gives you little room to walk back on your promise and makes you push on</div>
+                                </li>
+                                <li class="media">
+                                    <i class="far fa-check-square"></i>
+                                    <div class="media-body">No more frustrations of loosing focus and not being efficient. Sync main purpose is to solve just that and make you happy</div>
+                                </li>
+                                <li class="media">
+                                    <i class="far fa-check-square"></i>
+                                    <div class="media-body">It's the first mobile app that can turn you in a better organized person without the pressure of failing like other systems</div>
+                                </li>
+                                <li class="media">
+                                    <i class="far fa-check-square"></i>
+                                    <div class="media-body">Recognized by a lot of trainers and life coaches Sync is the number one tool they recommend time management</div>
+                                </li>
+                            </ul>
+                        </div> <!-- end of tab-pane -->
+                        <!-- end of tab -->
+                    </div> <!-- end of tab-content -->
+                    <!-- end of nav tabs content -->
+
+                </div> <!-- end of tabs-container -->
+            </div> <!-- end of col -->
+            <div class="col-lg-6">
+                <div class="image-container">
+                    <img class="img-fluid" src="images/description-2-app.png" alt="alternative">
+                </div> <!-- end of image-container -->
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+</div> <!-- end of tabs -->
+
+  <body>
 
 
   <section class="feature section-padding" data-scroll-index='2' id="service">
@@ -333,54 +396,84 @@
 
   </head>
 
-  <body>
 
-
-
-
-
-
-    <section class="faq section-padding prelative" data-scroll-index='5' >
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="sectioner-header text-center" id='sss'>
-                <h3>Frequently Asked Questions</h3>
-                <span class="line"></span>
-                <p>Sed quis nisi nisi. Proin consectetur porttitor dui sit amet viverra. Fusce sit amet lorem faucibus, vestibulum ante in, pharetra ante.</p>
-              </div>
-              <div class="section-content">
-                <div class="row">
-                  <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.2s">
-                    <h4>Nam tellus felis, dignissim quis dui ?</h4>
-                    <p>Suspendisse fermentum placerat enim, at pellentesque augue. Nullam elit est, ultricies et tellus ac, euismod placerat orci. Donec commodo.</p>
-                  </div>
-                  <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.2s">
-                    <h4>Mauris scelerisque, dui non faucibus vulputate ?</h4>
-                    <p>Sed tempus in neque ac rhoncus. Phasellus vehicula, erat tempor malesuada egestas, mauris tellus malesuada erat, at vestibulum nulla ex et lectus. Nullam elit est, ultricies et tellus ac, euismod placerat orci.</p>
-                  </div>
-                  <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.4s">
-                    <h4>Nullam elit est, ultricies et tellus ac ?</h4>
-                    <p>Ut vestibulum euismod aliquet. Quisque nec malesuada nibh. Vivamus euismod nunc eu leo faucibus, vel elementum justo posuere. In sed varius nisi. Curabitur id porta ipsum, et vestibulum dui.</p>
-                  </div>
-                  <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.4s">
-                    <h4>Suspendisse fermentum placerat enim, at pellentesque augue elit est ?</h4>
-                    <p>Vivamus euismod nunc eu leo faucibus, vel elementum justo posuere. In sed varius nisi.</p>
-                  </div>
-                  <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.6s">
-                    <h4>Ut vestibulum euismod aliquet. Quisque nec malesuada nibh ?</h4>
-                    <p>Suspendisse fermentum placerat enim, at pellentesque augue. Nullam elit est, ultricies et tellus ac, euismod placerat orci. Donec commodo dapibus congue.</p>
-                  </div>
-                  <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.6s">
-                    <h4>Donec commodo dapibus congue ?</h4>
-                    <p>Nullam elit est, ultricies et tellus ac, euismod placerat orci fermentum placerat enim, at pellentesque augue. Nullam elit est, ultricies et tellus ac, euismod placerat orci. Donec commodo dapibus congue.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+  <section class="video-section prelative text-center white">
+    <div class="section-padding video-overlay">
+      <div class="container">
+        <h2>Tanıtımı İzle</h2> <br>
+        <img src="images/video-lesson.png" onclick="openVideoPopup()" width="117" height="117" muted>
+        <div class="modal" id="videoModal">
+          <div class="modal-content">
+            <span class="close" onclick="closeVideoPopup()">&times;</span>
+            <video width="100%" height="100%" controls muted>
+              <source src="images/videoplayback.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
+
+    <!-- Add jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<div class="faq-section">
+    <div class="container">
+       <div class="row">
+          <div class="col-md-12">
+             <div class="section-title">
+                <h2>Sıkça Sorulan  <span class="accent-color">Sorular</span></h2>
+                <span class="line"></span>
+
+             </div>
+          </div>
+       </div>
+       <div class="row">
+          <div class="col-md-6">
+             <div class="faq-image">
+                <img src="images/video-bg.jpg" alt="FAQ Image">
+             </div>
+          </div>
+          <div class="col-md-6">
+             <div class="faq-list">
+                <div class="faq-item">
+                   <div class="question">
+                      <h3><span class="plus-icon">+</span> Why is Lorem Ipsum used?</h3>
+                   </div>
+                   <div class="answer">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                   </div>
+                </div>
+                <div class="faq-item">
+                   <div class="question">
+                      <h3><span class="plus-icon">+</span> Why do I need to use an extra system?</h3>
+                   </div>
+                   <div class="answer">
+                      <p>Using an extra system can make your job easier by providing additional features and functionalities that might not be available in your primary system. It can streamline processes, improve efficiency, and enhance overall productivity.</p>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="script.js"></script>
+<script> // jQuery for FAQ toggle
+    $(document).ready(function(){
+        $(".faq-item .question").click(function(){
+            $(this).toggleClass('active').next('.answer').slideToggle();
+            $(".faq-item .question").not(this).removeClass('active').next('.answer').slideUp();
+        });
+    });
+</script>
+
+
+
+
+
 
 
 
@@ -405,93 +498,126 @@
 </script>
 
 
-  <section class="client_section layout_padding" data-scroll-index='4' id="refrance">
+
+</section>
+</div>
+</header>
+<!-- end banner -->
+<!-- three_box  -->
+<div id="service" class="three_box">
+<div class="container">
+<div class="row">
+  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+     <div class="Soft-box">
+        <i><img src="images/service1.png" alt="#" /></i>
+        <h3> Software</h3>
+        <p>It is a long established fact that a reader will be distracted by the readable contentt has a more-or-less norf letters,</p>
+     </div>
+  </div>
+  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+     <div class="Soft-box">
+        <i><img src="images/service2.png" alt="#" /></i>
+        <h3>For Mobile</h3>
+        <p>It is a long established fact that a reader will be distracted by the readable contentt has a more-or-less norf letters,</p>
+     </div>
+  </div>
+  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+     <div class="Soft-box">
+        <i><img src="images/service3.png" alt="#" /></i>
+        <h3>For Computer</h3>
+        <p>It is a long established fact that a reader will be distracted by the readable contentt has a more-or-less norf letters,</p>
+     </div>
+  </div>
+</div>
+</div>
+</div>
+<!-- end three_box -->
+<!-- weare -->
+
+    <section class="client_section layout_padding" data-scroll-index='4' id="refrance">
 
 
-    <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="sectioner-header text-center black">
-              <h2><br> <br>Referanslar</h2>
-              <span class="line"></span>
-              <p>Extra Sistem'de müşteri memnuniyeti önceliklidir, en iyisi olmayı hedefler, insan kaynaklarına önem verir, sürekli gelişimi amaçlar ve çevre bilinciyle sorumluluk taşır.</p>
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="sectioner-header text-center black">
+                  <h2><br> <br>Referanslar</h2>
+                  <span class="line"></span>
+                  <p>Extra Sistem'de müşteri memnuniyeti önceliklidir, en iyisi olmayı hedefler, insan kaynaklarına önem verir, sürekli gelişimi amaçlar ve çevre bilinciyle sorumluluk taşır.</p>
+                </div>
+                <div id="carouselExampleControls" class="section-content" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="detail-box">
+                        <h4>TOC Grup Catering Organizasyon Temizlik Hizmetleri A.Ş</h4>
+                        <p><strong>Çok işimize yarıyor, teşekkürler Extra Sistem.</strong></p>
+                        <img src="images/user1.png" alt="">
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="detail-box">
+                        <h4>MFE Teknoloji A.Ş.</h4>
+                        <p><strong>Çok işimize yarıyor, teşekkürler Extra Sistem.</strong></p>
+                        <img src="images/channels4_profile-removebg-preview.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev"  role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next"  role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
             </div>
-            <div id="carouselExampleControls" class="section-content" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="detail-box">
-                    <h4>TOC Grup Catering Organizasyon Temizlik Hizmetleri A.Ş</h4>
-                    <p><strong>Çok işimize yarıyor, teşekkürler Extra Sistem.</strong></p>
-                    <img src="images/user1.png" alt="">
+          </div>
+
+      </section>
+
+
+
+
+
+
+      <p>   <br>
+        <br>
+        <br>  <br> <br> <br>  </p>
+
+
+
+
+
+
+
+
+
+        <section class="download section-padding">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="sectioner-header text-center white">
+                    <h3>Mobil Uygulamamızı Edinin</h3>
+                    <span class="line"></span>
+                    <p class="white"><a href="https://extrasistem.com"><span style="color: black;">Extra Sistem</span></a> 'i
+                      tüm uygulama mağazalarından indirebilirsiniz.</p>
                   </div>
                 </div>
-                <div class="carousel-item">
-                  <div class="detail-box">
-                    <h4>MFE Teknoloji A.Ş.</h4>
-                    <p><strong>Çok işimize yarıyor, teşekkürler Extra Sistem.</strong></p>
-                    <img src="images/channels4_profile-removebg-preview.png" alt="">
+                <div class="col-md-12">
+                  <div class="section-content text-center">
+                    <ul>
+                      <li><a href="https://apps.apple.com/app/id6476713470"><img src="images/appstore.png"
+                            class="wow fadeInUp" data-wow-delay="0.4s" /></a></li>
+                      <li><a href="https://play.google.com/store/apps/details?id=com.mfeteknoloji"><img
+                            src="images/playstore.png" class="wow fadeInUp" data-wow-delay="0.7s" /></a></li>
+                    </ul>
                   </div>
                 </div>
               </div>
-              <a class="carousel-control-prev"  role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next"  role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
             </div>
-          </div>
-        </div>
-      </div>
-
-  </section>
-
-
-
-
-
-
-  <p>   <br>
-    <br>
-    <br>  <br> <br> <br>  </p>
-
-      <section class="download section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="sectioner-header text-center white">
-              <h3>Mobil Uygulamamızı Edinin</h3>
-              <span class="line"></span>
-              <p class="white"><a href="https://extrasistem.com"><span style="color: black;">Extra Sistem</span></a> 'i
-                tüm uygulama mağazalarından indirebilirsiniz.</p>
-            </div>
-          </div>
-          <div class="col-md-12">
-            <div class="section-content text-center">
-              <ul>
-                <li><a href="https://apps.apple.com/app/id6476713470"><img src="images/appstore.png"
-                      class="wow fadeInUp" data-wow-delay="0.4s" /></a></li>
-                <li><a href="https://play.google.com/store/apps/details?id=com.mfeteknoloji"><img
-                      src="images/playstore.png" class="wow fadeInUp" data-wow-delay="0.7s" /></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-
-
-
-
-
-
-
-
-
+          </section>
 
 
 
@@ -500,80 +626,50 @@
 
 
     <section class="contact section-padding" data-scroll-index='6' id="iletisim">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="sectioner-header text-center">
-              <h3>Bizimle İletişime Geçin</h3>
-              <span class="line"></span>
-              <p>Her konuda size yardımcı olabilmek adına, ürün ve hizmetlerimizle ilgili öneri ve taleplerinizi
-                değerlendirmek için buradayız. Tüm çözüm kanallarımızla sizlere en kısa sürede yanıt verebilmek amacıyla
-                bize dilediğiniz yöntemle ulaşabilir, tüm sorularınıza hızlıca çözüm bulabilirsiniz</p>
-            </div>
-            <div class="section-content">
-              <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-8">
-
-
-                  <form id="contact_form" method="post" action="{{ route('newcontroller.store') }}" >
-                    @csrf
-                    <div class="row">
-                      <div class="col">
-                        <input type="text" id="your_name" class="form-input w-100" name="nameSurname"
-                          placeholder="Adınız ve Soyadınız" required>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="sectioner-header text-center">
+                <h3>Bizimle İletişime Geçin</h3>
+                <span class="line"></span>
+                <p>Her konuda size yardımcı olabilmek adına, ürün ve hizmetlerimizle ilgili öneri ve taleplerinizi değerlendirmek için buradayız. Tüm çözüm kanallarımızla sizlere en kısa sürede yanıt verebilmek amacıyla bize dilediğiniz yöntemle ulaşabilir, tüm sorularınıza hızlıca çözüm bulabilirsiniz</p>
+              </div>
+              <div class="section-content">
+                <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-8">
+                    <form id="contact_form" method="post" action="{{ route('newcontroller.store') }}">
+                      @csrf
+                      <div class="row">
+                        <div class="col">
+                          <input type="text" id="your_name" class="form-input w-100" name="nameSurname" placeholder="Adınız ve Soyadınız" required>
+                        </div>
+                        <div class="col">
+                          <input type="email" id="email" class="form-input w-100" name="email" placeholder="E-Mail Adresiniz" required>
+                        </div>
                       </div>
-                      <div class="col">
-                        <input type="email" id="email" class="form-input w-100" name="email"
-                          placeholder="E-Mail Adresiniz" required>
-                      </div>
+                      <input type="text" id="subject" class="form-input w-100" name="title" placeholder="Konuyu Giriniz">
+                      <textarea class="form-input w-100" id="message" placeholder="Mesajınızı bırakınız, en kısa sürede geri dönüş yapacağız." name="message"></textarea>
+                      <button id="submitBtn" class="btn-grad w-100 text-uppercase" name="button">Gönder ></button>
+                    </form>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-4">
+
+                    <div class="col-md-6">
+                        <div class="map_container" style="width: 500px;">
+                            <div class="map" style="border: 2px solid#6C757D; border-radius: 10px; overflow: hidden;">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.157739059981!2d29.11113657652926!3d41.021804818591114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac8e8773e29ed%3A0xad37e9a2f2c6a12c!2sAtakent%2C%20Mithatpa%C5%9Fa%20Cd.%20No%3A116%2C%2034760%20%C3%9Cmraniye%2F%C4%B0stanbul!5e0!3m2!1str!2str!4v1707480822696!5m2!1str!2str" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
                     </div>
-                    <input type="text" id="subject" class="form-input w-100" name="title" placeholder="Konuyu Giriniz">
-                    <textarea class="form-input w-100" id="message"
-                      placeholder="Mesajınızı bırakınız, en kısa sürede geri dönüş yapacağız."
-                      name="message"></textarea>
-
-                    <button id="submitBtn" class="btn-grad w-100 text-uppercase" name="button">Gönder ></button>
 
 
-                    <button id="hiddenBtn" style="display: none;">Hidden Button</button>
-
-
-
-                  </form>
-
-
-
-                </div>
-
-                <div class="col-sm-12 col-md-12 col-lg-4">
-                  <div class="contact-info white">
-                    <div class="contact-item media"> <i class="fa fa-mobile media-left media-right-margin"></i>
-                      <div class="media-body">
-                        <p class="text-uppercase">Telefon Numarası</p>
-                        <p class="text-uppercase">0 536 551 58 34</p>
-                      </div>
-                    </div>
-                    <div class="contact-item media"> <i class="fa fa-mobile media-left media-right-margin"></i>
-                      <div class="media-body">
-                        <p class="text-uppercase">Telefon Numarsı</p>
-                        <p class="text-uppercase"><a class="text-white"> (0216) 232 26 56</a> </p>
-                      </div>
-                    </div>
-                    <div class="contact-item media"> <i class="fa fa-envelope media-left media-right-margin"></i>
-                      <div class="media-body">
-                        <p class="text-uppercase">E-mail</p>
-                        <p class="text-lowercase"><a class="text-white"
-                            href="mailto:info@mfeteknoloji.com ">info@mfeteknoloji.com </a> </p>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
 
 
@@ -584,87 +680,150 @@
 
 
 
+    <section class="info_section layout_padding2">
+
+
+        <div class="container">
+
+
+          <div class="row">
 
 
 
 
+            <div class="col-md-3">
 
 
 
 
+              <div class="info_contact">
+
+                <h4>
+                    <br>  <br>Bize Ulaşım
+                </h4>
+                <div class="contact_link_box">
+                  <a href="">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <span>
+                        Atakent, Mithatpaşa Cd. No:116 Istanbul Ümraniye 34670
+
+                    </span>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <span>
+                      (0216) 232 26 56
+                    </span>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <span>
+                        info@extrasistem.com
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div class="info_social">
+                <a href="https://www.instagram.com/extrasistem/">    <i class="fa-brands fa-instagram"></i>     </a>
+
+                <a href="https://twitter.com/extrasistem/">       <i class="fa-sharp fa-solid fa-x"></i>           </a>
 
 
+                <a href="https://www.linkedin.com/company/101549029/admin/feed/posts/">
+                    <i class="fa-brands fa-linkedin-in"></i>                </a>
 
 
-
-    <footer id="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <a href="{{'#service'}}"><img src="images/Ekran_görüntüsü_2024-02-07_230812-removebg-preview.png" alt=""
-                class="img-fluid logo-footer"></a>
-            <div class="footer-about" align="center">
-              <p><strong>Personel yönetimi artık<br>güçlü ve kusursuz.</strong></p>
+                <a href="https://www.tiktok.com/@extrasistem?lang=tr-TR">
+                    <i class="fa-brands fa-tiktok"></i>             </a>
             </div>
 
+            </div>
+            <div class="col-md-3">
+              <div class="info_link_box">
+                <h4>
+                    <br><br> Site Haritası
+                </h4>
+                <div class="info_links">
+                  <a class="active" href="#anasayfa">
+                    <img src="images/nav-bullet.png" alt="">
+                    Anasayfa
+                  </a>
+                  <a class="" href="https://extrasistem.com">
+                    <img src="images/nav-bullet.png" alt="">
+                    Sisteme Giriş
+                  </a>
+                  <a class="" href="{{route('flag')}}">
+                    <img src="images/nav-bullet.png" alt="">
+                    Kayıt Ol | Giriş Yap
+                  </a>
+                  <a class="" href="price.html">
+                    <img src="images/nav-bullet.png" alt="">
+                    Destek | Geri Bildirim
 
-
-          </div>
-          <div class="col-md-3">
-            <div class="useful-link">
-              <h2>Extra Harita</h2>
-              <img src="images/halil.jpg" alt="" class="img-fluid">
-              <div class="use-links">
-                <li><a href="{{'#anasayfa'}}"><i class="fa-solid fa-angles-right"></i> Anasayfa</a></li>
-                <li><a href="https://www.mfeteknoloji.com/contact"><i class="fa-solid fa-angles-right"></i> Teklif
-                    Al</a></li>
-                <li><a href="https://extrasistem.com"><i class="fa-solid fa-angles-right"></i> Sisteme Giriş</a></li>
-                <li><a href="https://www.mfeteknoloji.com "><i class="fa-solid fa-angles-right"></i> MFE Teknoloji </a>
-                </li>
+                  </a>
+                  <a class="" href="">
+                    <img src="" alt="">
+                     <br> <br> <br><br>
+                  </a>
+                </div>
               </div>
             </div>
 
-          </div>
-          <div class="col-md-3">
-            <div class="social-links">
-              <h2>Sosyal Medya</h2>
-              <img src="images/bg-3.jpg" alt="">
-              <div class="social-icons">
-                <li><a href="https://www.instagram.com/extrasistem/"><i class="fab fa-instagram"></i> Instagram </a>
-                </li>
-                <li><a href="https://www.tiktok.com/@extrasistem?lang=tr-TR"><i class="fab fa-tiktok"></i> TikTok </a>
-                </li>
-                <li><a href="https://www.linkedin.com/company/101549029/admin/feed/posts/"><i
-                      class="fab fa-linkedin-in"></i> LinkedIn </a></li>
-                <li><a href="https://www.youtube.com/@extrasistem"><i class="fab fa-youtube"></i>
-                    YouTube </a></li>
-                <li><a href="https://twitter.com/extrasistem"><i class="fab fa-squarespace"></i> X</a></li>
 
 
+            <div class="col-md-3">
+              <div class="info_detail">
+                <h4>
+                    <br><br>  Kurumsal
+                </h4>
+                <p>
+                    <div style="">
+                    <img src="images/unnamed-removebg-preview.png" style=" height: 150px; width: 150px; background-color: #B9C1C9;" />
+
+                   <br> Extra Sistem, MFE Teknoloji A.Ş. tarafından geliştirilen bir projedir.
+
+                </div>
+
+                </p>
               </div>
             </div>
+            <div class="col-md-3 mb-0">
+              <h4>
+                <br><br>   Haberdar Olayım <br>
+              </h4>
+              <form action="#">
+                <input type="text" placeholder="E-Mail Giriniz" />
+                <button type="submit">
+Bültene Kayıt Ol
+                </button>
+                <br> <br>* Dilediğiniz an iptal edebilirsiniz. *
 
 
-          </div>
-          <div class="col-md-3">
-            <div class="address">
-              <h2>İletişim</h2>
-              <img src="./assets/images/about/home_line.png" alt="" class="img-fluid">
-              <div class="address-links">
-                <li class="address1"><i class="fa-solid fa-location-dot"></i> Atakent, Mithatpaşa Cd. No:116 İstanbul
-                  Ümraniye 34670
-                </li>
-                <li><a><i class="fa-solid fa-phone"></i> (0216) 232 26 56
+              </form>
 
-                  </a></li>
-                <li><a href="mailto:info@mfeteknoloji.com "><i class="fa-solid fa-envelope"></i>
-                    info@extrasistem.com</a></li>
-              </div>
             </div>
+
           </div>
 
         </div>
-      </div>
+
+
+      </section>
+
+      <footer class="footer_section">
+        <div class="container">
+          <p>
+            Telif Hakkı © 2024 Extra Sistem & MFE Teknoloji A.Ş.  Tüm hakları saklıdır.
+        </div>
+      </footer>
+
+        </div>
+        <p class="m-0 text-center text-body"><strong><em>Telif Hakkı © 2024  Tüm hakları saklıdır.</em>  Extra Sistem & MFE Teknoloji A.Ş.</strong></p>
+
+    </div>
+
+
+
 
 
       <footer class="footer">
@@ -702,6 +861,7 @@
             </div>
           </div>
         </div>
+
       </footer>
 
 
@@ -758,26 +918,6 @@
 
 
      <script src="https://www.youtube.com/iframe_api"></script>
-
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.17.0/font/bootstrap-icons.css" rel="stylesheet">
-
-      <link rel="stylesheet" href="animate.css">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-      <link rel="stylesheet" type="text/css" href="style.css" />
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
-        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-      <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-      <link rel="icon" type="image/x-icon" href="images/unnamed-removebg-preview.png">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-      <link rel="stylesheet" href="style.css" />
-
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
 
 
 
@@ -925,6 +1065,10 @@
         (function () {var a, b, c, d, e, f = function (a, b) {return function () {return a.apply(b, arguments)}}, g = [].indexOf || function (a) {for (var b = 0, c = this.length; c > b; b++)if (b in this && this[b] === a) return b; return -1}; b = function () {function a() { } return a.prototype.extend = function (a, b) {var c, d; for (c in b) d = b[c], null == a[c] && (a[c] = d); return a}, a.prototype.isMobile = function (a) {return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(a)}, a.prototype.createEvent = function (a, b, c, d) {var e; return null == b && (b = !1), null == c && (c = !1), null == d && (d = null), null != document.createEvent ? (e = document.createEvent("CustomEvent"), e.initCustomEvent(a, b, c, d)) : null != document.createEventObject ? (e = document.createEventObject(), e.eventType = a) : e.eventName = a, e}, a.prototype.emitEvent = function (a, b) {return null != a.dispatchEvent ? a.dispatchEvent(b) : b in (null != a) ? a[b]() : "on" + b in (null != a) ? a["on" + b]() : void 0}, a.prototype.addEvent = function (a, b, c) {return null != a.addEventListener ? a.addEventListener(b, c, !1) : null != a.attachEvent ? a.attachEvent("on" + b, c) : a[b] = c}, a.prototype.removeEvent = function (a, b, c) {return null != a.removeEventListener ? a.removeEventListener(b, c, !1) : null != a.detachEvent ? a.detachEvent("on" + b, c) : delete a[b]}, a.prototype.innerHeight = function () {return "innerHeight" in window ? window.innerHeight : document.documentElement.clientHeight}, a}(), c = this.WeakMap || this.MozWeakMap || (c = function () {function a() {this.keys = [], this.values = []} return a.prototype.get = function (a) {var b, c, d, e, f; for (f = this.keys, b = d = 0, e = f.length; e > d; b = ++d)if (c = f[b], c === a) return this.values[b]}, a.prototype.set = function (a, b) {var c, d, e, f, g; for (g = this.keys, c = e = 0, f = g.length; f > e; c = ++e)if (d = g[c], d === a) return void (this.values[c] = b); return this.keys.push(a), this.values.push(b)}, a}()), a = this.MutationObserver || this.WebkitMutationObserver || this.MozMutationObserver || (a = function () {function a() {"undefined" != typeof console && null !== console && console.warn("MutationObserver is not supported by your browser."), "undefined" != typeof console && null !== console && console.warn("WOW.js cannot detect dom mutations, please call .sync() after loading new content.")} return a.notSupported = !0, a.prototype.observe = function () { }, a}()), d = this.getComputedStyle || function (a, b) {return this.getPropertyValue = function (b) {var c; return "float" === b && (b = "styleFloat"), e.test(b) && b.replace(e, function (a, b) {return b.toUpperCase()}), (null != (c = a.currentStyle) ? c[b] : void 0) || null}, this}, e = /(\-([a-z]){1})/g, this.WOW = function () {function e(a) {null == a && (a = {}), this.scrollCallback = f(this.scrollCallback, this), this.scrollHandler = f(this.scrollHandler, this), this.resetAnimation = f(this.resetAnimation, this), this.start = f(this.start, this), this.scrolled = !0, this.config = this.util().extend(a, this.defaults), null != a.scrollContainer && (this.config.scrollContainer = document.querySelector(a.scrollContainer)), this.animationNameCache = new c, this.wowEvent = this.util().createEvent(this.config.boxClass)} return e.prototype.defaults = {boxClass: "wow", animateClass: "animated", offset: 0, mobile: !0, live: !0, callback: null, scrollContainer: null}, e.prototype.init = function () {var a; return this.element = window.document.documentElement, "interactive" === (a = document.readyState) || "complete" === a ? this.start() : this.util().addEvent(document, "DOMContentLoaded", this.start), this.finished = []}, e.prototype.start = function () {var b, c, d, e; if (this.stopped = !1, this.boxes = function () {var a, c, d, e; for (d = this.element.querySelectorAll("." + this.config.boxClass), e = [], a = 0, c = d.length; c > a; a++)b = d[a], e.push(b); return e}.call(this), this.all = function () {var a, c, d, e; for (d = this.boxes, e = [], a = 0, c = d.length; c > a; a++)b = d[a], e.push(b); return e}.call(this), this.boxes.length) if (this.disabled()) this.resetStyle(); else for (e = this.boxes, c = 0, d = e.length; d > c; c++)b = e[c], this.applyStyle(b, !0); return this.disabled() || (this.util().addEvent(this.config.scrollContainer || window, "scroll", this.scrollHandler), this.util().addEvent(window, "resize", this.scrollHandler), this.interval = setInterval(this.scrollCallback, 50)), this.config.live ? new a(function (a) {return function (b) {var c, d, e, f, g; for (g = [], c = 0, d = b.length; d > c; c++)f = b[c], g.push(function () {var a, b, c, d; for (c = f.addedNodes || [], d = [], a = 0, b = c.length; b > a; a++)e = c[a], d.push(this.doSync(e)); return d}.call(a)); return g}}(this)).observe(document.body, {childList: !0, subtree: !0}) : void 0}, e.prototype.stop = function () {return this.stopped = !0, this.util().removeEvent(this.config.scrollContainer || window, "scroll", this.scrollHandler), this.util().removeEvent(window, "resize", this.scrollHandler), null != this.interval ? clearInterval(this.interval) : void 0}, e.prototype.sync = function (b) {return a.notSupported ? this.doSync(this.element) : void 0}, e.prototype.doSync = function (a) {var b, c, d, e, f; if (null == a && (a = this.element), 1 === a.nodeType) {for (a = a.parentNode || a, e = a.querySelectorAll("." + this.config.boxClass), f = [], c = 0, d = e.length; d > c; c++)b = e[c], g.call(this.all, b) < 0 ? (this.boxes.push(b), this.all.push(b), this.stopped || this.disabled() ? this.resetStyle() : this.applyStyle(b, !0), f.push(this.scrolled = !0)) : f.push(void 0); return f} }, e.prototype.show = function (a) {return this.applyStyle(a), a.className = a.className + " " + this.config.animateClass, null != this.config.callback && this.config.callback(a), this.util().emitEvent(a, this.wowEvent), this.util().addEvent(a, "animationend", this.resetAnimation), this.util().addEvent(a, "oanimationend", this.resetAnimation), this.util().addEvent(a, "webkitAnimationEnd", this.resetAnimation), this.util().addEvent(a, "MSAnimationEnd", this.resetAnimation), a}, e.prototype.applyStyle = function (a, b) {var c, d, e; return d = a.getAttribute("data-wow-duration"), c = a.getAttribute("data-wow-delay"), e = a.getAttribute("data-wow-iteration"), this.animate(function (f) {return function () {return f.customStyle(a, b, d, c, e)}}(this))}, e.prototype.animate = function () {return "requestAnimationFrame" in window ? function (a) {return window.requestAnimationFrame(a)} : function (a) {return a()}}(), e.prototype.resetStyle = function () {var a, b, c, d, e; for (d = this.boxes, e = [], b = 0, c = d.length; c > b; b++)a = d[b], e.push(a.style.visibility = "visible"); return e}, e.prototype.resetAnimation = function (a) {var b; return a.type.toLowerCase().indexOf("animationend") >= 0 ? (b = a.target || a.srcElement, b.className = b.className.replace(this.config.animateClass, "").trim()) : void 0}, e.prototype.customStyle = function (a, b, c, d, e) {return b && this.cacheAnimationName(a), a.style.visibility = b ? "hidden" : "visible", c && this.vendorSet(a.style, {animationDuration: c}), d && this.vendorSet(a.style, {animationDelay: d}), e && this.vendorSet(a.style, {animationIterationCount: e}), this.vendorSet(a.style, {animationName: b ? "none" : this.cachedAnimationName(a)}), a}, e.prototype.vendors = ["moz", "webkit"], e.prototype.vendorSet = function (a, b) {var c, d, e, f; d = []; for (c in b) e = b[c], a["" + c] = e, d.push(function () {var b, d, g, h; for (g = this.vendors, h = [], b = 0, d = g.length; d > b; b++)f = g[b], h.push(a["" + f + c.charAt(0).toUpperCase() + c.substr(1)] = e); return h}.call(this)); return d}, e.prototype.vendorCSS = function (a, b) {var c, e, f, g, h, i; for (h = d(a), g = h.getPropertyCSSValue(b), f = this.vendors, c = 0, e = f.length; e > c; c++)i = f[c], g = g || h.getPropertyCSSValue("-" + i + "-" + b); return g}, e.prototype.animationName = function (a) {var b; try {b = this.vendorCSS(a, "animation-name").cssText} catch (c) {b = d(a).getPropertyValue("animation-name")} return "none" === b ? "" : b}, e.prototype.cacheAnimationName = function (a) {return this.animationNameCache.set(a, this.animationName(a))}, e.prototype.cachedAnimationName = function (a) {return this.animationNameCache.get(a)}, e.prototype.scrollHandler = function () {return this.scrolled = !0}, e.prototype.scrollCallback = function () {var a; return !this.scrolled || (this.scrolled = !1, this.boxes = function () {var b, c, d, e; for (d = this.boxes, e = [], b = 0, c = d.length; c > b; b++)a = d[b], a && (this.isVisible(a) ? this.show(a) : e.push(a)); return e}.call(this), this.boxes.length || this.config.live) ? void 0 : this.stop()}, e.prototype.offsetTop = function (a) {for (var b; void 0 === a.offsetTop;)a = a.parentNode; for (b = a.offsetTop; a = a.offsetParent;)b += a.offsetTop; return b}, e.prototype.isVisible = function (a) {var b, c, d, e, f; return c = a.getAttribute("data-wow-offset") || this.config.offset, f = this.config.scrollContainer && this.config.scrollContainer.scrollTop || window.pageYOffset, e = f + Math.min(this.element.clientHeight, this.util().innerHeight()) - c, d = this.offsetTop(a), b = d + a.clientHeight, e >= d && b >= f}, e.prototype.util = function () {return null != this._util ? this._util : this._util = new b}, e.prototype.disabled = function () {return !this.config.mobile && this.util().isMobile(navigator.userAgent)}, e}()}).call(this);
       </script>
 
+
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+<!-- End Google Map -->
   </body>
 
 </html>
