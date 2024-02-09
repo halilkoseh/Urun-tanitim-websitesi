@@ -26,12 +26,32 @@
 <body>
 
 
-
   <nav class="navbar navbar-expand-lg">
     <div class="container">
+
+      <li class="nav-item"> <a class="nav-link" data-scroll-nav="0" href="#anasayfa">AnaSayfa</a>
+      </li>
+      <li class="nav-item"> <a class="nav-link" data-scroll-nav="1" href="#about">Hakkımızda</a> </li>
+      <li class="nav-item"> <a class="nav-link" data-scroll-nav="2" href="#service">Hizmetler</a>
+      </li>
+      <li class="nav-item"> <a class="nav-link" data-scroll-nav="5" href="#sss">SSS</a> </li>
+
+      <li class="nav-item"> <a class="nav-link" data-scroll-nav="4" href="#refrance">Referanslar</a>
+      </li>
+
+      <li class="nav-item"> <a class="nav-link" data-scroll-nav="6" href="#iletisim">İletişim</a>
+      </li>
+
+
       <a class="navbar-brand navbar-logo" href="#anasayfa">
-        <img src="images/unnamed-removebg-preview1.png" alt="logo" class="logo-1">
+        ㅤㅤㅤ<img src="images/unnamed-removebg-preview1.png" alt="logo" class="logo-1">
       </a>
+
+
+
+
+
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="fas fa-bars"></span>
@@ -40,20 +60,8 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
 
-
-          <li class="nav-item"> <a class="nav-link" data-scroll-nav="0" href="#anasayfa">AnaSayfa</a>
+          <li class="nav-item"> <a class="nav-link"  href="#anasayfa">Kayıt Ol | Giriş Yap</a>
           </li>
-          <li class="nav-item"> <a class="nav-link" data-scroll-nav="1" href="#about">Hakkımızda</a> </li>
-          <li class="nav-item"> <a class="nav-link" data-scroll-nav="2" href="#service">Hizmetler</a>
-          </li>
-          <li class="nav-item"> <a class="nav-link" data-scroll-nav="5" href="#sss">SSS</a> </li>
-
-          <li class="nav-item"> <a class="nav-link" data-scroll-nav="4" href="#refrance">Referanslar</a>
-          </li>
-
-          <li class="nav-item"> <a class="nav-link" data-scroll-nav="6" href="#iletisim">İletişim</a>
-          </li>
-
 
 
           <li class="nav-item">
@@ -77,11 +85,11 @@
 
 
 
-
         </ul>
       </div>
     </div>
   </nav>
+
 
 
 
