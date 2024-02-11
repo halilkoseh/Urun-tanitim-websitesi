@@ -25,7 +25,6 @@
 
 <body>
 
-
   <nav class="navbar navbar-expand-lg">
     <div class="container">
 
@@ -89,6 +88,7 @@
       </div>
     </div>
   </nav>
+
 
 
 
@@ -1123,29 +1123,47 @@ Bültene Kayıt Ol
 
 
 
-<button id="düğme" class="scroll-to-top-btn">
-
+<button
+  type="button"
+  class="btn btn-danger btn-floating btn-lg"
+  id="btn-back-to-top"
+>
+  <i class="fas fa-arrow-up"></i>
 </button>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery CDN -->
 <script>
-    $(document).ready(function () {
-        var düğme = $('#düğme');
+/* Place script within <head> or before </body> */
+let mybutton = document.getElementById("btn-back-to-top");
 
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 200) {
-                düğme.addClass('show');
-            } else {
-                düğme.removeClass('show');
-            }
-        });
+window.onscroll = function () {
+  scrollFunction();
+};
 
-        düğme.on('click', function (e) {
-            e.preventDefault();
-            $('html, body').animate({ scrollTop: 0 }, 3000);
-        });
-    });
+function scrollFunction() {
+  const threshold = 50; // Adjust threshold if needed
+  if (document.body.scrollTop > threshold || document.documentElement.scrollTop > threshold) {
+    mybutton.style.bottom = "83px";
+  } else {
+    mybutton.style.bottom = "-50px";
+  }
+}
+
+mybutton.addEventListener("click", backToTop);
+
+function backToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+}
 </script>
+
+
+
+
+
+
+
 
 
 

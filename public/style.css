@@ -28,8 +28,7 @@ h6 {
 }
 .black {
 	color:#000000;
-}
-.navbar {
+} .navbar {
 	position: fixed;
 	right: 0;
 	left: 0;
@@ -1515,70 +1514,21 @@ body {
     opacity: 1;
 }
 
-
-
-
-#düğme {
-    display: inline-block;
-    background-color: #B9C1C9;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    border-radius: 4px;
+/* Ensure proper targeting and initial visibility */
+#btn-back-to-top {
     position: fixed;
-    bottom: 50px;
-    left: 30px;
-    transition: background-color .3s,
-      opacity .5s, visibility .5s;
-    opacity: 0;
-    visibility: hidden;
-    z-index: 1000;
-  }
-  #düğme::after {
-    content: "\f077";
-    font-family: FontAwesome;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 2em;
-    line-height: 50px;
-    color: #fff;
-  }
-  #düğme:hover {
-    cursor: pointer;
-    background-color: #333;
-  }
-  #düğme:active {
-    background-color: #555;
-  }
-  #düğme.show {
-    opacity: 1;
-    visibility: visible;
+    bottom: 100px; /* Initial visibility */
+    left: 40px;
+    display: block; /* Set to block initially */
+    transition: bottom 0.3s ease;
+background-color: #343A40;
+border-color: #000000;
+
   }
 
-  /* İçerik bölümü için stiller */
-
-  .içerik {
-    width: 77%;
-    margin: 50px otomatik;
-    font-family: 'Merriweather', serif;
-    font-size: 17px;
-    color: #6c767a;
-    line-height: 1.9;
-  }
-  @media (min-width: 500px) {
-    .içerik {
-      width: 43%;
+  /* Add media queries for responsiveness */
+  @media (max-width: 768px) {
+    #btn-back-to-top {
+      left: 10px; /* Adjust for smaller screens */
     }
-    #düğme {
-      margin: 30px;
-    }
-  }
-  .içerik h1 {
-    margin-bottom: -10px;
-    color: #03a9f4;
-    line-height: 1.5;
-  }
-  .içerik h3 {
-    font-style: italic;
-    color: #96a2a7;
   }
