@@ -25,69 +25,46 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg">
-    <div class="container">
 
-      <li class="nav-item"> <a class="nav-link" data-scroll-nav="0" href="#anasayfa">AnaSayfa</a>
-      </li>
-      <li class="nav-item"> <a class="nav-link" data-scroll-nav="1" href="#about">Hakkımızda</a> </li>
-      <li class="nav-item"> <a class="nav-link" data-scroll-nav="2" href="#service">Hizmetler</a>
-      </li>
-      <li class="nav-item"> <a class="nav-link" data-scroll-nav="5" href="#sss">SSS</a> </li>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand navbar-logo" href="#anasayfa">
+                    <img src="images/unnamed-removebg-preview1.png" alt="logo" class="logo-1">
+                </a>
 
-      <li class="nav-item"> <a class="nav-link" data-scroll-nav="4" href="#refrance">Referanslar</a>
-      </li>
-
-      <li class="nav-item"> <a class="nav-link" data-scroll-nav="6" href="#iletisim">İletişim</a>
-      </li>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fas fa-bars"></span>
+                </button>
 
 
-      <a class="navbar-brand navbar-logo" href="#anasayfa">
-        ㅤㅤㅤ<img src="images/unnamed-removebg-preview1.png" alt="logo" class="logo-1">
-      </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"> <a class="nav-link" data-scroll-nav="0" href="#anasayfa">AnaSayfa</a> </li>
+                        <li class="nav-item"> <a class="nav-link" data-scroll-nav="1" href="#about">Hakkımızda</a> </li>
+                        <li class="nav-item"> <a class="nav-link" data-scroll-nav="2" href="#service">Hizmetler</a> </li>
+                        <li class="nav-item"> <a class="nav-link" data-scroll-nav="5" href="#sss">SSS</a> </li>
+                        <li class="nav-item"> <a class="nav-link" data-scroll-nav="4" href="#refrance">Referanslar</a> </li>
+                        <li class="nav-item"> <a class="nav-link" data-scroll-nav="6" href="#iletisim">İletişim</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#anasayfa">Kayıt Ol | Giriş Yap</a> </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('anasayfa') }}">
+                                <img src="https://media.istockphoto.com/id/1053420278/tr/vekt%C3%B6r/t%C3%BCrk-bayra%C4%9F%C4%B1-do%C4%9Fru-oranlar%C4%B1-vekt%C3%B6r.jpg?s=612x612&w=0&k=20&c=tm7M6ziGeCG3G_GLzaEyY5kBYGYd1dSKZXlUdPKXSds="
+                                    alt="Türk Bayrağı" height="17" width="29">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('flag') }}">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/640px-Flag_of_the_United_Kingdom_%283-5%29.svg.png"
+                                    alt="İngiltere Bayrağı" height="16" width="28">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
 
-
-
-
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="fas fa-bars"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-
-          <li class="nav-item"> <a class="nav-link"  href="#anasayfa">Kayıt Ol | Giriş Yap</a>
-          </li>
-
-
-          <li class="nav-item">
-            <a class="nav-link " href="{{ route('anasayfa') }}">
-              <img src="        https://media.istockphoto.com/id/1053420278/tr/vekt%C3%B6r/t%C3%BCrk-bayra%C4%9F%C4%B1-do%C4%9Fru-oranlar%C4%B1-vekt%C3%B6r.jpg?s=612x612&w=0&k=20&c=tm7M6ziGeCG3G_GLzaEyY5kBYGYd1dSKZXlUdPKXSds=
-                " alt="51 Star US Flag" height="17" width="29">
-            </a>
-          </li>
-
-
-          <li class="nav-item">
-            <a class="nav-link " href="{{ route('flag') }}">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/640px-Flag_of_the_United_Kingdom_%283-5%29.svg.png"
-                alt="51 Star US Flag" height="16" width="28">
-            </a>
-          </li>
-
-
-
-
-
-
-        </ul>
-      </div>
-    </div>
-  </nav>
 
 
 
@@ -188,99 +165,103 @@
 
 
 
-
-
-  <div class="tabs">
+<!-- Pricing Table -->
+<section class="pricing-table section">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
-                <div class="tabs-container">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <h2><br> <br> Güçlü iş süreçleri için <span style="color:#53779b;">Extra Sistem</span> yanınızda</h2>
+                    <span class="line"></span>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Single Table -->
+            <div class="col-lg-4 col-md-12 col-12">
+                <div class="single-table">
+                    <!-- Table Head -->
+                    <div class="table-head">
+                        <div class="icon">
+                            <i class="fa-sharp fa-solid fa-clipboard-list"></i>                             </div>
+                        <h4 class="title"></h4>
+                        <div class="price">
+                            <p class="amount">Planlama<span></span></p>
+                        </div>
+                    </div>
+                    <!-- Table List -->
+                    <ul class="table-list">
+                        <li><strong> Puantajı tek ekranda takip edin</li>
+                        <li>İzin süreçlerini kolayca yönetin</li>
+                        <li></i> <br>Çalışan bilgilerini tek bir yerde toplayın <br><br></strong></li>
 
-                    <!-- Tabs Links -->
-                    <ul class="nav nav-tabs" id="cedoTabs" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link active" id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true"><i class="far fa-clock"></i>Planlama</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false"><i class="fas fa-list"></i>Takip</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="nav-tab-3" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false"><i class="far fa-calendar-alt"></i>Organize</a>
-                        </li>
+
                     </ul>
-                    <!-- end of tabs links -->
 
-                    <!-- Tabs Content -->
-                    <div class="tab-content" id="cedoTabsContent">
-                        <!-- Tab --> <br> <br><br><br><br>
-                        <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
+                    <!-- Table Bottom -->
+                </div>
+            </div>
+            <!-- End Single Table-->
+            <!-- Single Table -->
+            <div class="col-lg-4 col-md-12 col-12">
+                <div class="single-table">
+                    <!-- Table Head -->
+                    <div class="table-head">
+                        <div class="icon">
+                            <i class="fa-solid fa-user-check"></i>                        </div>
+                        <h4 class="title"></h4>
+                        <div class="price">
+                            <p class="amount">Takip Etme<span></span></p>
+                        </div>
+                    </div>
+                    <!-- Table List -->
+                    <ul class="table-list">
+                        <li><strong> tıkla tüm vardiyayı düzene sokun<br></li>
+                        <li>Bilgilerinizi tek tıkla raporlayın</li>
+                        <li></i> <br> Performans değerlendirme raporları <br><br> </strong></li>
 
-                            <ul class="list-unstyled li-space-lg">
-                                <li class="media">
-                                    <i class="far fa-check-square"></i>
-                                    <div class="media-body">Çalışan bilgilerini tek bir yerde toplayın
-                                    </div>
-                                </li>
-                                <li class="media">
-                                    <i class="far fa-check-square"></i>
-                                    <div class="media-body">İzin süreçlerini kolayca yönetin</div>
-                                </li>
-                                <li class="media">
-                                    <i class="far fa-check-square"></i>
-                                    <div class="media-body">Puantajı tek ekranda takip edin</div>
-                                </li>
-                            </ul>
-                        </div> <!-- end of tab-pane -->
-                        <!-- end of tab -->
+                    </ul>
 
-                        <!-- Tab -->
-                        <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
-                            <p><strong>Tek tıkla tüm vardiyayı düzene sokun</p>
-                            <p><strong>Bilgilerinizi tek tıkla raporlayın
-                            </p>
-                            <p><strong>Performans değerlendirme raporları
-                            </p>
-                        </div> <!-- end of tab-pane -->
-                        <!-- end of tab -->
+                    <!-- Table Bottom -->
+                </div>
+            </div>
+            <!-- End Single Table-->
+            <!-- Single Table -->
+            <div class="col-lg-4 col-md-12 col-12">
+                <div class="single-table">
+                    <!-- Table Head -->
+                    <div class="table-head">
+                        <div class="icon">
+                            <i class="fa-solid fa-sitemap"></i>                        </div>
+                        <h4 class="title"></h4>
+                        <div class="price">
+                            <p class="amount">Organizasyon<span></span></p>
+                        </div>
+                    </div>
+                    <!-- Table List -->
+                    <ul class="table-list">
+                        <li><strong>Kullanıcı Yönetimi ve Yetkilendirme</</li>
+                        <li>İşe Alım ve İşe Yerleştirme Yönetimi</li>
+                        <li></i>İş Sağlığı Güvenliği ve SGK Belge Dökümleri Yönetimi</strong></li>
 
-                        <!-- Tab -->
-                        <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="tab-3">
-                            <ul class="list-unstyled li-space-lg">
-                                <li class="media">
-                                    <i class="far fa-check-square"></i>
-                                    <div class="media-body">Kullanıcı Yönetimi ve Yetkilendirme                                    </div>
-                                </li>
-                                <li class="media">
-                                    <i class="far fa-check-square"></i>
-                                    <div class="media-body">Bildirimler ve Uyarılar                                    </div>
-                                </li>
-                                <li class="media">
-                                    <i class="far fa-check-square"></i>
-                                    <div class="media-body">İş Sağlığı Güvenliği ve SGK Belge Dökümleri Yönetimi</div>
-                                </li>
-                                <li class="media">
-                                    <i class="far fa-check-square"></i>
-                                    <div class="media-body">İşe Alım ve İşe Yerleştirme Yönetimi</div>
-                                </li>
-                            </ul>
-                        </div> <!-- end of tab-pane -->
-                        <!-- end of tab -->
-                    </div> <!-- end of tab-content -->
-                    <!-- end of nav tabs content -->
+                    </ul>
 
-                </div> <!-- end of tabs-container -->
-            </div> <!-- end of col -->
-            <div class="col-lg-6">
-                <div class="image-container">
-                    <img class="img-fluid" src="images/description-2-app.png" alt="alternative">
-                </div> <!-- end of image-container -->
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of container -->
-</div> <!-- end of tabs -->
+                    <!-- Table Bottom -->
+                </div>
+            </div>
+            <!-- End Single Table-->
+        </div>
+    </div>
+</section>
+<!--/ End Pricing Table -->
 
-  <body>
 
+
+
+ <p>  <br>
+
+ </p>
 
   <section class="feature section-padding" data-scroll-index='2' id="service">
     <div class="container">
@@ -438,7 +419,7 @@
        <div class="row">
           <div class="col-md-6">
              <div class="faq-image">
-                <img src="images/video-bg.jpg" alt="FAQ Image">
+                <img src="images/1706277665492.jpg" alt="FAQ Image">
              </div>
           </div>
           <div class="col-md-6">
@@ -731,11 +712,9 @@
                   <div class="col-sm-12 col-md-12 col-lg-4">
 
                     <div class="col-md-6">
-                        <div class="map_container" style="width: 500px;">
+                        <div class="map_container" style="width: 330px;">
                             <div class="map" style="border: 2px solid#6C757D; border-radius: 10px; overflow: hidden;">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.157739059981!2d29.11113657652926!3d41.021804818591114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac8e8773e29ed%3A0xad37e9a2f2c6a12c!2sAtakent%2C%20Mithatpa%C5%9Fa%20Cd.%20No%3A116%2C%2034760%20%C3%9Cmraniye%2F%C4%B0stanbul!5e0!3m2!1str!2str!4v1707480822696!5m2!1str!2str" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div>
-                        </div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.15416949897!2d29.11114417652935!3d41.021882918586336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa504bba49687%3A0x7aad4c2252c6f958!2sMFE%20Teknoloji%20A.%C5%9E.!5e0!3m2!1str!2str!4v1707667782349!5m2!1str!2str" width="330" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                        </div>
                     </div>
 
 
@@ -848,21 +827,20 @@
 
 
             <div class="col-md-3">
-              <div class="info_detail">
-                <h4>
-                    <br><br>  Kurumsal
-                </h4>
-                <p>
-                    <div style="">
-                    <img src="images/unnamed-removebg-preview.png" style=" height: 150px; width: 150px; background-color: #B9C1C9;" />
-
-                   <br> Extra Sistem, MFE Teknoloji A.Ş. tarafından geliştirilen bir projedir.
-
+                <div class="info_detail">
+                  <h4 style="text-align: center; color: #ffffff; font-size: 24px; margin-bottom: 20px;">
+                  <br> <br>  Kurumsal
+                  </h4>
+                  <div style="text-align: center;">
+                    <img src="images/unnamed-removebg-preview.png" style="height: 150px; width: 150px; border-radius: 50%; ">
+                  </div>
+                  <p style="text-align: center; color: #ffffff; margin-top: 20px;">
+                  </p>
                 </div>
-
-                </p>
               </div>
-            </div>
+
+
+
             <div class="col-md-3 mb-0">
               <h4>
                 <br><br>   Haberdar Olayım <br>
@@ -872,7 +850,7 @@
                 <button type="submit">
 Bültene Kayıt Ol
                 </button>
-                <br> <br>* Dilediğiniz an iptal edebilirsiniz. *
+                <br> <br><span style="color:#B9C1C9">ㅤㅤ* Dilediğiniz an iptal edebilirsiniz. *</span>
 
 
               </form>
@@ -893,16 +871,13 @@ Bültene Kayıt Ol
         </div>
       </footer>
 
-        </div>
-        <p class="m-0 text-center text-body"><strong><em>Telif Hakkı © 2024  Tüm hakları saklıdır.</em>  Extra Sistem & MFE Teknoloji A.Ş.</strong></p>
-
-    </div>
 
 
 
 
 
-      <footer class="footer">
+
+      {{-- <footer class="footer">
         <div id="button"></div>
         <div id="container">
           <div id="cont">
@@ -912,7 +887,7 @@ Bültene Kayıt Ol
           </div>
         </div>
 
-      </footer>
+      </footer> --}}
 
 
 
