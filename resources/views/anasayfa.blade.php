@@ -180,11 +180,7 @@
                   <p>Verimliliği artırın ve iş süreçlerinizi hızlandırın..</p>
                 </div>
               </div>
-            </div>
-            <a href="https://www.linkedin.com/company/mfeteknoloji/?feedView=" class="about-btn">
-              < Daha Fazla>
-            </a>
-          </div>
+
         </div>
       </div>
     </div>
@@ -203,10 +199,10 @@
                     <!-- Tabs Links -->
                     <ul class="nav nav-tabs" id="cedoTabs" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true"><i class="far fa-clock"></i>Schedule</a>
+                            <a class="nav-link active" id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true"><i class="far fa-clock"></i>Planlama</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false"><i class="fas fa-list"></i>Tracking</a>
+                            <a class="nav-link" id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false"><i class="fas fa-list"></i>Takip</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="nav-tab-3" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false"><i class="far fa-calendar-alt"></i>Organize</a>
@@ -216,21 +212,22 @@
 
                     <!-- Tabs Content -->
                     <div class="tab-content" id="cedoTabsContent">
-                        <!-- Tab -->
+                        <!-- Tab --> <br> <br><br><br><br>
                         <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
-                            <p><strong>Schedule tasks</strong> to keep track of their completion. Sync provides multiple scheduling options including alarms and reminders.</p>
+
                             <ul class="list-unstyled li-space-lg">
                                 <li class="media">
                                     <i class="far fa-check-square"></i>
-                                    <div class="media-body">You can always add new tasks or change the settings of existing ones in your calendar view or the app control panel</div>
+                                    <div class="media-body">Çalışan bilgilerini tek bir yerde toplayın
+                                    </div>
                                 </li>
                                 <li class="media">
                                     <i class="far fa-check-square"></i>
-                                    <div class="media-body">It's easy to stay focused on your most important daily activities that will get you closer to meeting your goals</div>
+                                    <div class="media-body">İzin süreçlerini kolayca yönetin</div>
                                 </li>
                                 <li class="media">
                                     <i class="far fa-check-square"></i>
-                                    <div class="media-body">Use phone reminders to free up your long term memory which will reduce stress and make you more productive</div>
+                                    <div class="media-body">Puantajı tek ekranda takip edin</div>
                                 </li>
                             </ul>
                         </div> <!-- end of tab-pane -->
@@ -238,31 +235,32 @@
 
                         <!-- Tab -->
                         <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
-                            <p><strong>Keep track of everything</strong> and analyse your progress while using the app. In less than a month you should be seeing improved results when it comes to time management and task prioritization</p>
-                            <p><strong>Anyone can enjoy the app</strong> no matter their gender, age, occupation or location in the world. Sync's algorithms have been built to be flexible and functional for any person in the world</p>
-                            <p><strong>Achieve the impossible</strong> just by carefully monitoring your progress and keeping the app updated with daily operations. It's easier than you think and it only takes a couple of minutes</p>
+                            <p><strong>Tek tıkla tüm vardiyayı düzene sokun</p>
+                            <p><strong>Bilgilerinizi tek tıkla raporlayın
+                            </p>
+                            <p><strong>Performans değerlendirme raporları
+                            </p>
                         </div> <!-- end of tab-pane -->
                         <!-- end of tab -->
 
                         <!-- Tab -->
                         <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="tab-3">
-                            <p><strong>Use the power of social interactivity</strong> to keep you motivated and focused on your daily and long term goals. It's revolutionary</p>
                             <ul class="list-unstyled li-space-lg">
                                 <li class="media">
                                     <i class="far fa-check-square"></i>
-                                    <div class="media-body">Commiting to something in front of a crowd gives you little room to walk back on your promise and makes you push on</div>
+                                    <div class="media-body">Kullanıcı Yönetimi ve Yetkilendirme                                    </div>
                                 </li>
                                 <li class="media">
                                     <i class="far fa-check-square"></i>
-                                    <div class="media-body">No more frustrations of loosing focus and not being efficient. Sync main purpose is to solve just that and make you happy</div>
+                                    <div class="media-body">Bildirimler ve Uyarılar                                    </div>
                                 </li>
                                 <li class="media">
                                     <i class="far fa-check-square"></i>
-                                    <div class="media-body">It's the first mobile app that can turn you in a better organized person without the pressure of failing like other systems</div>
+                                    <div class="media-body">İş Sağlığı Güvenliği ve SGK Belge Dökümleri Yönetimi</div>
                                 </li>
                                 <li class="media">
                                     <i class="far fa-check-square"></i>
-                                    <div class="media-body">Recognized by a lot of trainers and life coaches Sync is the number one tool they recommend time management</div>
+                                    <div class="media-body">İşe Alım ve İşe Yerleştirme Yönetimi</div>
                                 </li>
                             </ul>
                         </div> <!-- end of tab-pane -->
@@ -447,21 +445,59 @@
              <div class="faq-list">
                 <div class="faq-item">
                    <div class="question">
-                      <h3><span class="plus-icon">+</span> Why is Lorem Ipsum used?</h3>
+                      <h5><span class="plus-icon">+</span> Extra Sistem nasıl çalışır ve nasıl kullanılır?</h5>
                    </div>
                    <div class="answer">
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                      <p>Sistem, bir web tabanlı arayüz üzerinden erişilebilir. Yöneticiler ve çalışanlar belirli yetkilendirmeler doğrultusunda giriş yapabilir ve ilgili işlevleri kullanabilir. Kullanıcı dostu bir arayüzle tasarlanmıştır ve genellikle bir eğitim gerektirmez.</p>
                    </div>
                 </div>
                 <div class="faq-item">
                    <div class="question">
-                      <h3><span class="plus-icon">+</span> Why do I need to use an extra system?</h3>
+                      <h5><span class="plus-icon">+</span>  Extra Sistem hangi tür işletmeler için uygundur?</h5>
                    </div>
                    <div class="answer">
-                      <p>Using an extra system can make your job easier by providing additional features and functionalities that might not be available in your primary system. It can streamline processes, improve efficiency, and enhance overall productivity.</p>
+                      <p>Bu sistem, çeşitli endüstrilerde faaliyet gösteren ve çalışanlarının takibini ve yönetimini kolaylaştırmak isteyen her türlü işletme için uygundur. Örneğin, perakende, inşaat, sağlık, lojistik, otelcilik gibi sektörlerde kullanılabilir.
+
+                      </p>
                    </div>
                 </div>
              </div>
+
+
+             <div class="faq-item">
+              <div class="question">
+                 <h5><span class="plus-icon">+</span>  İzin süreçlerini nasıl yönetebilirim?</h5>
+              </div>
+              <div class="answer">
+                 <p>Sistem, çalışanların izin taleplerini kolayca yapmalarını ve yöneticilerin bu talepleri onaylamasını veya reddetmesini sağlar. İzin dengesi, kullanılan izinlerin izlenmesi ve raporlanması gibi özellikler de bulunur. </p>
+
+                 </p>
+              </div>
+           </div>
+
+
+           <div class="faq-item">
+            <div class="question">
+               <h5><span class="plus-icon">+</span> Hangi tür bilgileri Extra Sistem ile takip edebilirim?</h>
+            </div>
+            <div class="answer">
+               <p>Sistem, çalışan bilgileri, izinler, puantaj, performans değerlendirmeleri, vardiya düzenlemeleri, raporlar ve daha fazlasını takip etmenizi sağla </p>
+
+               </p>
+            </div>
+         </div>
+
+         <div class="faq-item">
+          <div class="question">
+             <h5><span class="plus-icon">+</span>Çalışan bilgilerini nasıl güvenli  şekilde saklıyorsunuz?</h5>
+          </div>
+          <div class="answer">
+             <p>Sistem, güvenlik standartlarına uygun bir şekilde tasarlanmış ve veri güvenliğini sağlamak için gerekli önlemler alınmıştır. Veritabanı şifrelemesi, erişim kontrolü ve diğer güvenlik önlemleri kullanılır.</p>
+
+             </p>
+          </div>
+       </div>
+        </div>
           </div>
        </div>
     </div>
@@ -606,22 +642,22 @@
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <div class="Soft-box">
                     <i><img src="images/service1.png" alt="Service 1" /></i>
-                    <h3>Software</h3>
-                    <p>It is a long established fact that a reader will be distracted by the readable contentt has a more-or-less norf letters,</p>
+                    <h3>Hedefler ve Stratejiler</h3>
+                    <p>   Yol haritanızı daima koruyarak hedeflerinize ulaşmanızı sağlayan bir rehber  ön plana çıkar.</p>
                   </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <div class="Soft-box">
                     <i><img src="images/service2.png" alt="Service 2" /></i>
-                    <h3>For Mobile</h3>
-                    <p>It is a long established fact that a reader will be distracted by the readable contentt has a more-or-less norf letters,</p>
+                    <h3>Kaynak Yönetimi</h3>
+                    <p>İşletmenin finansal ve insan kaynakları gibi kritik kaynaklarını etkin bir şekilde yönetmeyi sağlar.  </p>
                   </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <div class="Soft-box">
                     <i><img src="images/service3.png" alt="Service 3" /></i>
-                    <h3>For Computer</h3>
-                    <p>It is a long established fact that a reader will be distracted by the readable contentt has a more-or-less norf letters,</p>
+                    <h3>Veri Yönetimi</h3>
+                    <p>İşletmenin  veri yönetimine dayalı olan süreçlerini kolaylaştırır. Veri tabanı ve güvenliği  gibi temel bileşenleri içerir.</p>
                   </div>
                 </div>
               </div>
@@ -871,33 +907,7 @@ Bültene Kayıt Ol
         <div id="container">
           <div id="cont">
             <div class="footer_center">
-              <table>
-                <tr>
-                  <td>
-                    <h6><img src="images/unnamed-removebg-preview.png" alt="Image Description" height="50" width="50">
-                    </h6>
-                  </td>
-                  <td>
-                    <h6><br><br>👋 Extra Sistem'e Hoş Geldiniz ! 👋 <br> <br> Personel takibi, izin yönetimi, performans
-                      değerlendirmesi gibi şirketinizin tüm ihtiyaçlarını tek bir yerden yönetin ve iş verimliliğinizi
-                      artırın. Ayrıca, mobil uygulamamızla her zaman erişilebilirsiniz.</h6>
-                  </td>
-                  <td>
-                    <h6><br><br>💼 Extra Sistem Nedir? 💼 <br> <br>Güçlü bir İnsan Kaynakları çözümüdür. Şirketinizin
-                      süreçlerini optimize eder, verimliliği artırır ve iş gücü yönetimini kolaylaştırır.</h6>
-                  </td>
-                  <td>
-                    <h6><br><br>🌐 Neden Biz? 🌐 <br> <br>Teknolojiyi kullanarak iş dünyasına değer katmayı
-                      hedefliyoruz. Extra Sistem, iş süreçlerinizi zahmetsizleştirir, güvenli ve verimli bir şekilde
-                      gerçekleşmesini sağlar.</h6>
-                  </td>
-                  <td>
-                    <h6><br><br>🎯 Neler Sunuyoruz? 🎯<br> <br> İşe Alım ve İstihdam Yönetimi, Personel Bilgi Yönetimi,
-                      Performans Yönetimi, Bordro ve İnsan Kaynakları Analitikleri, Eğitim ve Gelişim Takibi. Extra
-                      Sistem'i tanımak ve güncel gelişmelerden haberdar olmak için bizi takip edin!</h6>
-                  </td>
-                </tr>
-              </table>
+
             </div>
           </div>
         </div>
@@ -1109,6 +1119,37 @@ Bültene Kayıt Ol
 <!-- Google Map -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
 <!-- End Google Map -->
+
+
+
+
+<button id="düğme" class="scroll-to-top-btn">
+
+</button>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery CDN -->
+<script>
+    $(document).ready(function () {
+        var düğme = $('#düğme');
+
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 200) {
+                düğme.addClass('show');
+            } else {
+                düğme.removeClass('show');
+            }
+        });
+
+        düğme.on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: 0 }, 3000);
+        });
+    });
+</script>
+
+
+
   </body>
+
 
 </html>
