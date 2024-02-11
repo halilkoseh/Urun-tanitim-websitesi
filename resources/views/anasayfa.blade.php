@@ -462,7 +462,7 @@
                <h5><span class="plus-icon">+</span> Hangi tür bilgileri Extra Sistem ile takip edebilirim?</h>
             </div>
             <div class="answer">
-               <p>Sistem, çalışan bilgileri, izinler, puantaj, performans değerlendirmeleri, vardiya düzenlemeleri, raporlar ve daha fazlasını takip etmenizi sağla </p>
+               <p>Sistem, çalışan bilgileri, izinler, puantaj, performans değerlendirmeleri, vardiya düzenlemeleri, raporlar ve daha fazlasını takip etmenizi sağlar </p>
 
                </p>
             </div>
