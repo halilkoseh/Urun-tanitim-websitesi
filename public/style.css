@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&display=swap');
+
 * {
 	padding:0;
 	margin:0;
 }
 body {
 	font-size: 14px;
-    font-family: 'Protest Revolution', sans-serif !important;
-
+    font-family: 'Poppins', sans-serif;
 }
 a {
 	color:#faf7fc;
@@ -30,17 +31,25 @@ h6 {
 	color:#000000;
 }
 .navbar {
-	position: fixed;
-	right: 0;
-	left: 0;
-	width: 100%;
-	padding-left: 0;
-	padding-right: 0;
-	min-height: 50px;
-	line-height: 50px;
-	background: transparent;
-	z-index: 1030;
+    position: fixed;
+    right: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    min-height: 50px;
+    line-height: 50px;
+    background: transparent;
+    z-index: 1030;
 }
+
+
+@media (max-width: 768px) {
+    .navbar {
+        position: absolute;
+    }
+}
+
 .navbar .active {
 	color:#E40613 !important;
 }
@@ -236,7 +245,7 @@ h6 {
 	height: 70px;
 	border-radius: 100px;
 	background: #ffffff;
-	color: #8e1efc;
+	color: #000000;
 	font-size: 30px;
 	line-height: 70px;
 	margin: 0 auto;
@@ -515,7 +524,7 @@ input {
 @media all and (max-width:991px) {
 .navbar .navbar-collapse {
 	overflow: auto;
-	background:  rgb(213, 198, 221);
+	background:  #ffff;
 	color: #fff !important;
 	text-align: center;
 	padding: 10px 0;
@@ -852,7 +861,7 @@ a{
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+	font-family: poppins;
 }
 
 /* Footer stilleri */
@@ -999,7 +1008,7 @@ body {
     max-width: 300px;
     display: none;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    font-family: Arial, sans-serif;
+	font-family: poppins;
     text-align: center; /* Butonu ortalamak için text-align ekleniyor */
 }
 
@@ -1111,12 +1120,12 @@ body {
 }
 
 
-/*
+
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
 }
 
-*/
+
 
 
 
@@ -1400,7 +1409,7 @@ body {
 }
 
 .accent-color {
-    color:#1F3DFF;
+    color:#B73D26;
 }
 
 .faq-image img {
@@ -1427,7 +1436,7 @@ body {
     line-height: 1;
     vertical-align: middle;
     transform: translateY(-3px);
-    color: #1F3DFF;
+    color: #E59757;
 }
 
 .answer p {

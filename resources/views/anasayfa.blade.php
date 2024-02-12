@@ -24,19 +24,15 @@
 </head>
 
 <body>
-
-
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand navbar-logo" href="#anasayfa">
                     <img src="images/unnamed-removebg-preview1.png" alt="logo" class="logo-1">
                 </a>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="fas fa-bars"></span>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                   <i class="fa-solid fa-bars" style="color: #000000;"></i>
                 </button>
-
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
@@ -65,14 +61,17 @@
         </nav>
 
 
-
-
-
-
-
-
-
-
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var navbarItems = document.querySelectorAll('.navbar-nav .nav-link');
+                navbarItems.forEach(function (item) {
+                    item.addEventListener('click', function () {
+                        var navbarCollapse = document.querySelector('.navbar-collapse');
+                        navbarCollapse.classList.remove('show');
+                    });
+                });
+            });
+        </script>
 
   <section class="banner" data-scroll-index='0' id="anasayfa">
     <div class="banner-overlay">
@@ -82,16 +81,10 @@
             <div class="banner-text">
               <h2 class="white"><br><br>Yönetimde Aradığınız Sistem</h2>
 
-
-
-
               <br>
               <h5 class="white">Şirketinizi bir arada yönetin, <br>verimliliği yapay zeka destekli <a
                   href="http://extrasistem.com" target="_blank" rel="dofollow" class="weblink">Extra Sistem</a>'de
                 buluşturun!</h5>
-
-
-
 
               <p class="banner-text white">Extra Sistem, işletmelerin insan kaynakları yönetimini kolaylaştıran bir
                 yazılım çözümüdür. <br> <br> Bu güçlü bir insan kaynakları uygulaması ile personel takibi, izin
@@ -116,7 +109,6 @@
     </div>
     <span class="svg-wave"> </span>
   </section>
-
 
 
   <section class="about section-padding prelative" data-scroll-index='1' id="about">
@@ -194,7 +186,7 @@
                     <ul class="table-list">
                         <li><strong> Puantajı tek ekranda takip edin</li>
                         <li>İzin süreçlerini kolayca yönetin</li>
-                        <li></i> <br>Çalışan bilgilerini tek bir yerde toplayın <br><br></strong></li>
+                        <li></i> <br>Çalışan bilgilerini tek bir yerde toplayın <br>    </strong></li>
 
 
                     </ul>
@@ -322,7 +314,7 @@
               </div>
               <div class="col-md-4 d-block d-md-none">
                 <div class="feature-mobile"> <img src="images/iphone-screen-with-shadow.png"
-                    class="img-fluid wow fadeInUp" /> </div>
+                    class="img-fluid wow fadeInUp" /> <br> <br> <br> </div>
               </div>
 
 
@@ -332,6 +324,7 @@
 
                     <i class="fa fa-line-chart larger-icon" aria-hidden="true"></i>
                   </div>
+
                   <div class="media-body text-left">
                     <h5>Bordro ve İnsan Kaynakları Analitikleri</h5>
                     <p> Çalışan maaşlarının maliyet hesaplamasını yapma, yasal uyumluluğu sağlama, İK raporları ve iş
@@ -365,11 +358,6 @@
                     <p>Mobil uygulama ve Web sitesi ile her zaman her yerde kolayca erişim sağlayabilme.</p>
                   </div>
                 </div>
-
-
-
-
-
               </div>
             </div>
           </div>
@@ -377,9 +365,6 @@
       </div>
     </div>
   </section>
-
-
-
 
   </head>
 
@@ -419,7 +404,7 @@
        <div class="row">
           <div class="col-md-6">
              <div class="faq-image">
-                <img src="images/1706277665492.jpg" alt="FAQ Image">
+                <img src="images/Ekran_2024-02-12_153434-removebg-preview.png"  >
              </div>
           </div>
           <div class="col-md-6">
@@ -872,11 +857,6 @@ Bültene Kayıt Ol
       </footer>
 
 
-
-
-
-
-
       {{-- <footer class="footer">
         <div id="button"></div>
         <div id="container">
@@ -888,10 +868,6 @@ Bültene Kayıt Ol
         </div>
 
       </footer> --}}
-
-
-
-
 
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -943,14 +919,6 @@ Bültene Kayıt Ol
 
 
      <script src="https://www.youtube.com/iframe_api"></script>
-
-
-
-
-
-
-
-
 
 
       <div class="cookie-popup" id="cookiePopup">
@@ -1132,16 +1100,6 @@ function backToTop() {
   });
 }
 </script>
-
-
-
-
-
-
-
-
-
-
   </body>
 
 
