@@ -107,53 +107,88 @@ h6 {
 .nav-scroll .active {
 	position: relative;
 }
+
+
+
 .banner {
-	background-image: url('images/arkaplan.png');
-	padding:100px 0px;
-	position:relative;
+    padding: 100px 0px;
+    position: relative;
+
 }
+
+.banner-overlay {
+    position: relative;
+    z-index: 1;
+}
+
+.banner-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(8px); /* Bulanıklık efekti uygulama */
+
+}
+
 .banner::before {
-	content: "";
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	background: url(images/pattern.png);
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(images/pattern.png);
 }
+
 .banner a.weblink {
-	color:#ffffff;
-	border-bottom:1px dotted #ffffff;
+    color: #ffffff;
+    border-bottom: 1px dotted #ffffff;
 }
+
 .banner a:hover {
-	text-decoration:none;
+    text-decoration: none;
 }
+
 .svg-wave {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
+
 .banner-text {
-	padding-right:80px;
-	margin:50px 0px 0px;
+    padding-right: 80px;
+    margin: 50px 0px 0px;
+    color: #000;
 }
+
 .banner-text p {
-	margin:40px 0px;
+    margin: 40px 0px;
 }
+
 .banner-text ul {
-	list-style: none;
+    list-style: none;
 }
+
 .banner-text ul li {
-	display: inline-block;
-	margin: 0px 10px 10px 0px;
+    display: inline-block;
+    margin: 0px 10px 10px 0px;
 }
+
 .banner-text ul li a {
-	display: block;
+    display: block;
 }
+
 .banner-text ul li a img {
-	width: 150px;
-	border-radius: 7px;
+    width: 150px;
+    border-radius: 7px;
 }
+
+
+
+
+
 .prelative {
 	position:relative
 }
@@ -1036,6 +1071,7 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
     margin-bottom: 25px;
+    background-color: #0000;
   }
 
   .client_section .detail-box {
@@ -1154,7 +1190,7 @@ body {
   }
 
   .info_section .info_contact .contact_link_box a:hover {
-    color: #000000;
+    color: #D7EFE3;
   }
 
   .info_section .info_social {
@@ -1212,12 +1248,12 @@ body {
   }
 
   .info_section .info_links a:hover, .info_section .info_links a.active {
-    color: #000000;
+    color: #D7EFE3;
   }
 
   .info_section form input {
     border: none;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #ffffff;
     background-color: transparent;
     width: 100%;
     height: 45px;
@@ -1238,7 +1274,7 @@ body {
   }
 
   .info_section form input::placeholder {
-    color:#B9C1C9;
+    color:#fff;
   }
 
   .info_section form button {
@@ -1249,7 +1285,7 @@ body {
     background-color: #343A40;
     color: #ffffff;
     border-radius: 0;
-    border: 1px solid #B9C1C9;
+    border: 1px solid #ffffff;
     -webkit-transition: all .3s;
     transition: all .3s;
     margin-top: 15px;
@@ -1257,7 +1293,7 @@ body {
 
   .info_section form button:hover {
     background-color: transparent;
-    color: #000000;
+    color: #F5F5F7;
   }
   .footer_section {
     position: relative;
@@ -1453,7 +1489,7 @@ body {
     width: 120px;
     height: 120px;
     border-radius: 77px;
-    border: #ACADAF solid 4px;
+    border: #000000 solid 4px;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -1463,7 +1499,7 @@ body {
 }
 
 .three_box .Soft-box i:hover {
-    background: #343A40;
+    background: #F5F5F7;
     transition: ease-in all 0.5s;
 }
 
@@ -1519,7 +1555,7 @@ body {
 
 .col-xl-4 {
     opacity: 0;
-    transition: opacity 2.5s ease;
+    transition: opacity 1s ease;
 }
 
 .col-xl-4.animate {
@@ -1530,11 +1566,12 @@ body {
     position: fixed;
     bottom: 100px;
     left: 40px;
-    display: block; */
+    display: block;
     transition: bottom 0.5s ease;
     background-color: #343A40;
     border-color: #000000;
 }
+
 
 
 @media (max-width: 768px) {
@@ -1643,3 +1680,6 @@ body {
 	font-size: 16px;
 	margin-right: 10px;
 }
+
+
+

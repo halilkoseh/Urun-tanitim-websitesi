@@ -42,7 +42,7 @@
                         <li class="nav-item"> <a class="nav-link" data-scroll-nav="5" href="#sss">SSS</a> </li>
                         <li class="nav-item"> <a class="nav-link" data-scroll-nav="4" href="#refrance">Referanslar</a> </li>
                         <li class="nav-item"> <a class="nav-link" data-scroll-nav="6" href="#iletisim">İletişim</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="#anasayfa">Kayıt Ol | Giriş Yap</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="https://extrasistem.com/register">Kayıt Ol | Giriş Yap</a> </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('anasayfa') }}">
                                 <img src="https://media.istockphoto.com/id/1053420278/tr/vekt%C3%B6r/t%C3%BCrk-bayra%C4%9F%C4%B1-do%C4%9Fru-oranlar%C4%B1-vekt%C3%B6r.jpg?s=612x612&w=0&k=20&c=tm7M6ziGeCG3G_GLzaEyY5kBYGYd1dSKZXlUdPKXSds="
@@ -73,45 +73,59 @@
             });
         </script>
 
-  <section class="banner" data-scroll-index='0' id="anasayfa">
+<section class="banner" data-scroll-index='0' id="anasayfa">
     <div class="banner-overlay">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-12">
-            <div class="banner-text">
-              <h2 class="white"><br><br>Yönetimde Aradığınız Sistem</h2>
-
-              <br>
-              <h5 class="white">Şirketinizi bir arada yönetin, <br>verimliliği yapay zeka destekli <a
-                  href="http://extrasistem.com" target="_blank" rel="dofollow" class="weblink">Extra Sistem</a>'de
-                buluşturun!</h5>
-
-              <p class="banner-text white">Extra Sistem, işletmelerin insan kaynakları yönetimini kolaylaştıran bir
-                yazılım çözümüdür. <br> <br> Bu güçlü bir insan kaynakları uygulaması ile personel takibi, izin
-                yönetimi, performans değerlendirmesi, bordro hesaplama ve puantaj süreçleri tek bir yerden yönetebilir,
-                iş verimliliğinizi artırabilirsiniz. <br> <br> Mobil uygulama ve Web sitesi ile her zaman her yerde
-                erişilebilir. İşletmenizin büyümesine ve başarısına katkıda bulunur. Her şey tek bir yazılımda ...
-
-              </p>
-              <ul>
-                <li><a href="https://apps.apple.com/app/id6476713470"><img src="images/appstore.png"
-                      class="wow fadeInUp" data-wow-delay="0.4s" /></a></li>
-                <li><a href="https://play.google.com/store/apps/details?id=com.mfeteknoloji"><img
-                      src="images/playstore.png" class="wow fadeInUp" data-wow-delay="0.7s" /></a></li>
-              </ul>
+        <video autoplay loop muted class="banner-video">
+            <source src="images/1477080_People_Business_3840x2160 (1).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="container">
+            <!-- İçerikler buraya gelecek -->
+            <div class="row">
+                <div class="col-md-8 col-sm-12">
+                    <div class="banner-text">
+                        <h2 class="white"><br><br>Yönetimde Artık Kargaşaya Mahal Yok </h2>
+                        <br>
+                        <h5 class="white">Şirketinizi bir arada yönetin, <br>verimliliği yapay zeka destekli <a
+                                href="http://extrasistem.com" target="_blank" rel="dofollow"
+                                class="weblink">Extra Sistem</a>'de
+                            buluşturun!</h5>
+                        <p class="banner-text white">Extra Sistem, işletmelerin insan kaynakları yönetimini
+                            kolaylaştıran bir
+                            yazılım çözümüdür. <br> <br> Bu güçlü bir insan kaynakları uygulaması ile personel
+                            takibi, izin
+                            yönetimi, performans değerlendirmesi, bordro hesaplama ve puantaj süreçleri tek bir
+                            yerden
+                            yönetebilir, iş verimliliğinizi artırabilirsiniz. <br> <br> Mobil uygulama ve Web
+                            sitesi ile
+                            her zaman her yerde
+                            erişilebilir. İşletmenizin büyümesine ve başarısına katkıda bulunur. Her şey tek bir
+                            yazılımda ...
+                        </p>
+                        <ul>
+                            <li><a href="https://apps.apple.com/app/id6476713470"><img src="images/appstore.png"
+                                        class="wow fadeInUp" data-wow-delay="0.4s" /></a></li>
+                            <li><a href="https://play.google.com/store/apps/details?id=com.mfeteknoloji"><img
+                                        src="images/playstore.png" class="wow fadeInUp" data-wow-delay="0.7s" /></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <img src="images/iphone-screen.png" class="img-fluid wow fadeInUp" height="500" width="500" />
+                </div>
             </div>
-          </div>
-          <div class="col-md-4 col-sm-12">
-            <img src="images/iphone-screen.png" class="img-fluid wow fadeInUp" height="500" width="500" />
-          </div>
         </div>
-      </div>
     </div>
     <span class="svg-wave"> </span>
-  </section>
+</section>
 
 
-  <section class="about section-padding prelative" data-scroll-index='1' id="about">
+
+
+
+
+  <section class="about section-padding prelative" data-scroll-index='1' id="about" style="background-color: #F5F5F7">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -158,7 +172,7 @@
 
 
 <!-- Pricing Table -->
-<section class="pricing-table section">
+<section class="pricing-table section" style="background-color: #fff">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -255,7 +269,7 @@
 
  </p>
 
-  <section class="feature section-padding" data-scroll-index='2' id="service">
+  <section class="feature section-padding" data-scroll-index='2' id="service" style="background-color: #F5F5F7">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -403,13 +417,13 @@
        <div class="row">
           <div class="col-md-6">
              <div class="faq-image">
-                <img src="images/Ekran_2024-02-12_153434-removebg-preview.png" alt="Description of the image" style="height: 305px; width: 500px;">
+                <img src="images/Ekran_2024-02-12_153434-removebg-preview.png" alt="Description of the image" style="height: 305px; width: 450px;">
             </div>
           </div>
           <div class="col-md-6">
              <div class="faq-list">
                 <div class="faq-item">
-                   <div class="question">
+                   <div class="question"> <p> <br> </p>
                       <h5><span class="plus-icon">+</span> Extra Sistem nasıl çalışır ve nasıl kullanılır?</h5>
                    </div>
                    <div class="answer">
@@ -468,44 +482,6 @@
     </div>
  </div>
 
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
- <script src="script.js"></script>
- <script>
-     $(document).ready(function(){
-         // Tüm cevapları gizle
-         $(".faq-item .answer").hide();
-
-         // Soruya tıklama olayını tanımla
-         $(".faq-item .question").click(function(){
-             // Tıklanan sorunun cevabını aç veya kapat
-             $(this).toggleClass('active').next('.answer').slideToggle();
-             // Diğer soruların cevaplarını kapat
-             $(".faq-item .question").not(this).removeClass('active').next('.answer').slideUp();
-         });
-     });
- </script>
-
-
-
-      <script>
-        document.addEventListener("DOMContentLoaded", function() {
-    var carouselItems = document.querySelectorAll('.carousel-item');
-    var currentIndex = 0;
-
-    document.querySelector('.carousel-control-prev').addEventListener('click', function() {
-        carouselItems[currentIndex].classList.remove('active');
-        currentIndex = (currentIndex === 0) ? carouselItems.length - 1 : currentIndex - 1;
-        carouselItems[currentIndex].classList.add('active');
-    });
-
-    document.querySelector('.carousel-control-next').addEventListener('click', function() {
-        carouselItems[currentIndex].classList.remove('active');
-        currentIndex = (currentIndex === carouselItems.length - 1) ? 0 : currentIndex + 1;
-        carouselItems[currentIndex].classList.add('active');
-    });
-});
-
-</script>
 
 
 
@@ -546,7 +522,7 @@
 </section>
 
 
-    <section class="client_section layout_padding" data-scroll-index='4' id="refrance">
+    <section class="client_section layout_padding" data-scroll-index='4' id="refrance" style="background-color: #F5F5F7">
 
 
         <div class="container">
@@ -590,6 +566,74 @@
       </section>
 
 
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="script.js"></script>
+      <script>
+          $(document).ready(function(){
+              // Tüm cevapları gizle
+              $(".faq-item .answer").hide();
+
+              // Soruya tıklama olayını tanımla
+              $(".faq-item .question").click(function(){
+                  // Tıklanan sorunun cevabını aç veya kapat
+                  $(this).toggleClass('active').next('.answer').slideToggle();
+                  // Diğer soruların cevaplarını kapat
+                  $(".faq-item .question").not(this).removeClass('active').next('.answer').slideUp();
+              });
+          });
+      </script>
+
+     <style>
+         .carousel-item {
+             opacity: 0;
+             transition: opacity 1s ease; /* Increased duration for slower transition */
+         }
+
+         .carousel-item.active {
+             opacity: 1;
+         }
+     </style>
+
+     <script>
+         document.addEventListener("DOMContentLoaded", function() {
+             var carouselItems = document.querySelectorAll('.carousel-item');
+             var currentIndex = 0;
+             var intervalId;
+
+             function slideNext() {
+                 carouselItems[currentIndex].classList.remove('active');
+                 carouselItems[currentIndex].style.opacity = 0; // Instantly set opacity to 0
+                 currentIndex = (currentIndex === carouselItems.length - 1) ? 0 : currentIndex + 1;
+                 carouselItems[currentIndex].classList.add('active');
+                 setTimeout(function() {
+                     carouselItems[currentIndex].style.opacity = 1; // Fade in after a longer delay
+                 }, 500); // Adjust delay as needed
+             }
+
+             function slidePrev() {
+                 carouselItems[currentIndex].classList.remove('active');
+                 carouselItems[currentIndex].style.opacity = 0; // Instantly set opacity to 0
+                 currentIndex = (currentIndex === 0) ? carouselItems.length - 1 : currentIndex - 1;
+                 carouselItems[currentIndex].classList.add('active');
+                 setTimeout(function() {
+                     carouselItems[currentIndex].style.opacity = 1; // Fade in after a longer delay
+                 }, 500); // Adjust delay as needed
+             }
+
+             document.querySelector('.carousel-control-prev').addEventListener('click', function() {
+                 slidePrev();
+                 clearInterval(intervalId); // Stop automatic sliding when user clicks prev button
+             });
+
+             document.querySelector('.carousel-control-next').addEventListener('click', function() {
+                 slideNext();
+                 clearInterval(intervalId); // Stop automatic sliding when user clicks next button
+             });
+
+             // Start automatic sliding
+             intervalId = setInterval(slideNext, 5000); // Slide every 5 seconds
+         });
+     </script>
 
 
 
@@ -731,14 +775,54 @@
 
 
             <div class="col-md-3">
+                <div class="info_detail">
+                    <div style="text-align: center;">
+                        <h4 style="color: #ffffff; font-size: 24px; margin-bottom: 20px;">   </h4>
+                        <img src="images/unnamed-removebg-preview.png" style="height: 150px; width: 150px; border-radius: 50%;">
+                    </div>
+                    <div style="text-align: center; margin-top: 20px;">
+
+
+
+
+                        <a href="https://twitter.com/extrasistem" style="margin-right: 10px;">
+                            <img src="images/twitter.png" alt="Twitter Icon" height="19">
+                        </a>
+
+                        <a href="https://www.instagram.com/extrasistem/" style="margin-right: 10px;">
+                            <img src="images/pngwing.com (2).png" alt="Instagram Icon" height="25">
+                        </a>
+                        <a href="https://www.youtube.com/@extrasistem" style="margin-right: 10px;">
+                            <img src="images/youtube.png" alt="YouTube Icon" style="color: #FF0000; font-size: 12px; height:32px;" >
+                        </a>
+
+
+
+                        <a href="https://www.linkedin.com/company/101549029/admin/feed/posts/">
+                            <img src="images/pngwing.com (3).png" alt="LinkedIn Icon" height="27">
+                        </a>
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-3">
 
 
 
 
               <div class="info_contact">
 
-                <h4>
-                    <br>  <br>Bize Ulaşım
+                <h4>           <br>  <br>Bize Ulaşım
                 </h4>
                 <div class="contact_link_box">
                   <a href="">
@@ -761,20 +845,16 @@
                     </span>
                   </a>
                 </div>
+
               </div>
-              <div class="info_social">
-                <a href="https://www.instagram.com/extrasistem/">    <i class="fa-brands fa-instagram"></i>     </a>
 
-                <a href="https://twitter.com/extrasistem/">       <i class="fa-sharp fa-solid fa-x"></i>           </a>
-
-
-                <a href="https://www.linkedin.com/company/101549029/admin/feed/posts/">
-                    <i class="fa-brands fa-linkedin-in"></i>                </a>
+              <style>
+                .info_social {
+                    text-align: center;
+                }
+            </style>
 
 
-                <a href="https://www.tiktok.com/@extrasistem?lang=tr-TR">
-                    <i class="fa-brands fa-tiktok"></i>             </a>
-            </div>
 
             </div>
             <div class="col-md-3">
@@ -800,9 +880,8 @@
                     Destek | Geri Bildirim
 
                   </a>
-                  <a class="" href="">
-                    <img src="" alt="">
-                     <br> <br> <br><br>
+
+
                   </a>
                 </div>
               </div>
@@ -810,18 +889,6 @@
 
 
 
-            <div class="col-md-3">
-                <div class="info_detail">
-                  <h4 style="text-align: center; color: #ffffff; font-size: 24px; margin-bottom: 20px;">
-                  <br> <br>  Kurumsal
-                  </h4>
-                  <div style="text-align: center;">
-                    <img src="images/unnamed-removebg-preview.png" style="height: 150px; width: 150px; border-radius: 50%; ">
-                  </div>
-                  <p style="text-align: center; color: #ffffff; margin-top: 20px;">
-                  </p>
-                </div>
-              </div>
 
 
 
@@ -829,15 +896,28 @@
               <h4>
                 <br><br>   Haberdar Olayım <br>
               </h4>
-              <form action="#">
-                <input type="text" placeholder="E-Mail Giriniz" />
+
+
+
+
+
+              <form action="{{ route('subcontroller.store') }}" method="post">
+                @csrf
+                <input type="text" placeholder="E-Mail Giriniz" name="eposta" required/>
                 <button type="submit">
-Bültene Kayıt Ol
+                    Bültene Kayıt Ol
                 </button>
-                <br> <br><span style="color:#B9C1C9">ㅤㅤ* Dilediğiniz an iptal edebilirsiniz. *</span>
+                <br> <br><span style="color:#B9C1C9">ㅤㅤ</span>
+            </form>
 
 
-              </form>
+
+
+
+
+
+
+
 
             </div>
 

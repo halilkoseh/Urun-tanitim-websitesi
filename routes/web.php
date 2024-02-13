@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\newcontroller;
+use App\Http\Controllers\subcontroller;
 use App\Models\Contact;
 use Illuminate\Support\Facades\Route;
 
@@ -26,3 +27,4 @@ Route::get('/anasayfa', function () {
 
 
 
+Route::post('/store1',[subcontroller::class,'store1'])->name('subcontroller.store');
