@@ -163,7 +163,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title">
-                    <h2><br> <br> Güçlü iş süreçleri için <span style="color:#53779b;">Extra Sistem</span> yanınızda</h2>
+                    <h2><br> <br> Güçlü iş süreçleri için <span style="color:#343A40;">Extra Sistem</span> yanınızda</h2>
                     <span class="line"></span>
                     <p></p>
                 </div>
@@ -372,15 +372,14 @@
   <section class="video-section prelative text-center white">
     <div class="section-padding video-overlay">
       <div class="container">
-        <h2>Tanıtımı İzle</h2> <br>
-        <img src="images/video-lesson.png" onclick="openVideoPopup()" width="117" height="117" muted>
-        <div class="modal" id="videoModal">
-          <div class="modal-content">
-            <span class="close" onclick="closeVideoPopup()">&times;</span>
-            <video width="100%" height="100%" controls muted>
-              <source src="images/videoplayback.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
+        <h3>Tanıtımı İzle </h3>
+        <br><br>
+        <i class="fa fa-play" id="video-icon" aria-hidden="true"></i>
+        <div class="video-popup">
+          <div class="video-src">
+            <div class="iframe-src">
+              <iframe src="images/WhatsApp Video 2024-02-12 saat 18.55.19_4c1c60bb.mp4" allowfullscreen></iframe>
+            </div>
           </div>
         </div>
       </div>
@@ -404,8 +403,8 @@
        <div class="row">
           <div class="col-md-6">
              <div class="faq-image">
-                <img src="images/Ekran_2024-02-12_153434-removebg-preview.png"  >
-             </div>
+                <img src="images/Ekran_2024-02-12_153434-removebg-preview.png" alt="Description of the image" style="height: 305px; width: 500px;">
+            </div>
           </div>
           <div class="col-md-6">
              <div class="faq-list">
@@ -528,7 +527,7 @@
         <div class="sectioner-header text-center white">
           <h3>Mobil Uygulamamızı Edinin</h3>
           <span class="line"></span>
-          <p class="white"><a href="https://extrasistem.com"><span style="color: black;">Extra Sistem</span></a> 'i
+          <p class="white"><a href="https://extrasistem.com"><span style="color: rgb(255, 255, 255);"> <br> <br>Extra Sistem</span></a> 'i
             tüm uygulama mağazalarından indirebilirsiniz.</p>
         </div>
       </div>

@@ -231,9 +231,7 @@ h6 {
 	background-size: cover;
 	overflow: hidden;
 }
-.video-overlay {
-	background: linear-gradient(to left, rgba(21, 20, 22, 0.9), #1B222D);
-}
+.video-overlay { background: linear-gradient(to left, rgba(21, 20, 22, 0.9), #1B222D); }
 .video-section h3 {
 	font-weight: 600;
 	font-size: 38px;
@@ -245,7 +243,7 @@ h6 {
 	height: 70px;
 	border-radius: 100px;
 	background: #ffffff;
-	color: #000000;
+	color: #343A40;
 	font-size: 30px;
 	line-height: 70px;
 	margin: 0 auto;
@@ -464,10 +462,8 @@ input {
 	margin: 0;
 }
 .download {
-    background: #ACADAF;
-    padding: 100px 0px;
-    position: relative;
-    text-align: center; /* Yatay hizalama */
+	padding:100px 0px;
+	position:relative;
 }
 
 .download::before {
@@ -478,38 +474,37 @@ input {
     top: 0;
     width: 100%;
     height: 100%;
-}
+    background: url(images/SL-091319-23410-20.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
-.download .sectioner-header h3 {
-    color: #333; /* Başlık rengi */
-}
 
-.download p {
-    color: #555; /* Metin rengi */
 }
 
 .download ul {
-    list-style: none;
-    padding: 0;
+	list-style: none;
 }
-
 .download ul li {
-    display: inline-block;
-    margin: 10px; /* Butonlar arasındaki boşluk */
+	display: inline-block;
+	margin: 0px 10px 10px 0px;
 }
-
 .download ul li a {
-    display: block;
-    width: 200px; /* Buton genişliği */
-    height: auto;
+	display: block;
 }
-
-
-
-
 .download ul li a img {
 	width: 150px;
 	border-radius: 7px;
+}
+.footer-copy {
+	background: #ffffff;
+	color: #242424;
+	font-size: 13px;
+	text-align: center;
+	padding:15px 0px;
+}
+.footer-copy p {
+	margin-bottom:0px;
 }
 .footer-copy {
 	background: #ffffff;
@@ -1409,7 +1404,7 @@ body {
 }
 
 .accent-color {
-    color:#B73D26;
+    color:#2B8192;
 }
 
 .faq-image img {
@@ -1436,7 +1431,7 @@ body {
     line-height: 1;
     vertical-align: middle;
     transform: translateY(-3px);
-    color: #E59757;
+    color: #03393F;
 }
 
 .answer p {
@@ -1575,18 +1570,18 @@ body {
 }
 .pricing-table .single-table .icon i{
 	font-size:95px;
-	color:#53779b;
+	color:#343A40;
 }
 .pricing-table .single-table .title {
 	font-size: 40px;
-	color: #2C2D3F;
+	color: #343A40;
 	margin-top: 30px;
 	margin-bottom: 15px;
 }
 .pricing-table .single-table .amount {
 	font-size:36px;
 	font-weight:600;
-	color:#2E373E;
+	color:#343A40;
 }
 .pricing-table .single-table .amount span{
 	display:inline-block;
@@ -1603,7 +1598,7 @@ body {
 }
 .pricing-table .table-list li {
 	position: center;
-	color: #53779b;
+	color: #343A40;
 	text-transform: capitalize;
 	margin-bottom: 18px;
 }
