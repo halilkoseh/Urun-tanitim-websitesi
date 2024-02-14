@@ -907,7 +907,7 @@
                 @csrf
                 <input type="text" placeholder="E-Mail Giriniz" name="eposta" required/>
                 <button type="submit">
-                    Bültene Kayıt Olunuz
+                    Bültene Kayıt Ol
                 </button>
                 <br> <br><span style="color:#B9C1C9">ㅤㅤ</span>
             </form>
