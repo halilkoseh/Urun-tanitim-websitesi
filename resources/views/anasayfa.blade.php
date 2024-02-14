@@ -79,6 +79,8 @@
             <source src="images/1477080_People_Business_3840x2160 (1).mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
+
+        
         <div class="container">
             <!-- İçerikler buraya gelecek -->
             <div class="row">
