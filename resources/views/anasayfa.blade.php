@@ -80,7 +80,7 @@
             Your browser does not support the video tag.
         </video>
 
-        
+
         <div class="container">
             <!-- İçerikler buraya gelecek -->
             <div class="row">
@@ -1003,7 +1003,7 @@
 
 
       <div class="cookie-popup" id="cookiePopup">
-        <p>Sitemizde teknik olarak zorunlu olan çerezler kullanılmakta ve sizlere daha iyi bir hizmet sunabilmek için
+        <p>Sitemizde teknik     olarak zorunlu olan çerezler kullanılmakta ve sizlere daha iyi bir hizmet sunabilmek için
           işlenmektedir. <br>
           Detaylı bilgi için <a
             href="https://www.kvkk.gov.tr/SharedFolderServer/CMSFiles/fb193dbb-b159-4221-8a7b-3addc083d33f.pdf"

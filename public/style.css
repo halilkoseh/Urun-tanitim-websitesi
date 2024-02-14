@@ -1029,7 +1029,7 @@ body {
 
 .cookie-popup {
     position: fixed;
-    bottom: 0px;
+    bottom: 1px;
     right: 20px;
     background-color: #333;
     color: #fff;
@@ -1049,7 +1049,7 @@ body {
 
 .cookie-btn {
     color: #fff;
-    background:#FC153E;
+    background:#1F242C;
     padding: 10px 20px;
     border: none;
     outline: none;
@@ -1061,7 +1061,7 @@ body {
 }
 
 .cookie-btn:hover {
-    background-color: #e55e00;
+    background-color: #343A40;
 }
 
 
