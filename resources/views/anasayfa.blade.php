@@ -870,7 +870,7 @@
                     Anasayfa
                   </a>
                   <a class="" href="https://extrasistem.com">
-                    <img src="images/nav-bullet.png" alt="">    
+                    <img src="images/nav-bullet.png" alt="">
                     Sisteme Giriş
                   </a>
                   <a class="" href="{{route('flag')}}">
