@@ -1029,7 +1029,7 @@ body {
 
 .cookie-popup {
     position: fixed;
-    bottom: 30px;
+    bottom: 0px;
     right: 20px;
     background-color: #333;
     color: #fff;
