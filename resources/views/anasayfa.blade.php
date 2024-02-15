@@ -36,7 +36,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"> <a class="nav-link" data-scroll-nav="0" href="#anasayfa">AnaSayfa</a> </li>
+                        <li class="nav-item"> <a class="nav-link" data-scroll-nav="0" href="#anasayfa">Anasayfa</a> </li>
                         <li class="nav-item"> <a class="nav-link" data-scroll-nav="1" href="#about">Hakkımızda</a> </li>
                         <li class="nav-item"> <a class="nav-link" data-scroll-nav="2" href="#service">Hizmetler</a> </li>
                         <li class="nav-item"> <a class="nav-link" data-scroll-nav="5" href="#sss">SSS</a> </li>
