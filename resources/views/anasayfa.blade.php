@@ -535,15 +535,18 @@
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <div class="detail-box">
-                        <h4>TOC Grup Catering Organizasyon Temizlik Hizmetleri A.Ş</h4>
-                        <p><strong>Çok işimize yarıyor, teşekkürler Extra Sistem.</strong></p>
+                        <h4>TOC Grup  A.Ş</h4>
+                        <p><strong> Personel bilgilerini güvenli bir şekilde saklamamızı, izin yönetimini hızlıca yapmamızı sağlıyor. <br>Verimliliği artırıyor, kullanımı kolay ve destek ekibi hızlı.</strong></p>
+
+
                         <img src="images/user1.png" alt="">
                       </div>
                     </div>
                     <div class="carousel-item">
                       <div class="detail-box">
                         <h4>MFE Teknoloji A.Ş.</h4>
-                        <p><strong>Çok işimize yarıyor, teşekkürler Extra Sistem.</strong></p>
+                        <p><strong>İnsan kaynakları ve muhasebe işleyişinde hayal ettiğimiz dijital dönüşümü gerçekleştirdik, <br>teşekkürler Extra Sistem ...
+</strong></p>
                         <img src="images/channels4_profile-removebg-preview.png" alt="">
                       </div>
                     </div>
