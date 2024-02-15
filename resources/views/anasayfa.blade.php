@@ -541,7 +541,9 @@
                     <div class="carousel-item active">
                       <div class="detail-box">
                         <h4>TOC Grup  A.Ş</h4>
-                        <p><strong> Personel bilgilerini güvenli bir şekilde saklamamızı, izin yönetimini hızlıca yapmamızı sağlıyor. <br>Verimliliği artırıyor, kullanımı kolay ve destek ekibi hızlı.</strong></p>
+                        <p> <br> </p>
+
+                        <p><strong> Personel bilgilerini güvenli bir şekilde saklamamızı, izin yönetimini hızlıca yapmamızı sağlıyor. <br>Verimliliği artırıyor, kullanımı kolay ve destek ekibi hızlı. </strong></p>
 
 
                         <img src="images/user1.png" alt="">
@@ -550,7 +552,9 @@
                     <div class="carousel-item">
                       <div class="detail-box">
                         <h4>MFE Teknoloji A.Ş.</h4>
-                        <p><strong>İnsan kaynakları ve muhasebe işleyişinde hayal ettiğimiz dijital dönüşümü gerçekleştirdik, <br>teşekkürler Extra Sistem ...
+                        <p> <br> </p>
+
+                        <p><strong>İnsan kaynakları ve muhasebe işleyişinde hayal ettiğimiz dijital dönüşümü gerçekleştirdik, <br>teşekkürler Extra Sistem ... <br>
 </strong></p>
                         <img src="images/channels4_profile-removebg-preview.png" alt="">
                       </div>
@@ -576,11 +580,11 @@
 
       <section class="clients">
         <div class="container">
-          <div class="client-logos">
-            <img src="images/unnamed-removebg-preview - Kopya (2).png" alt="Client 1 Logo" width="100">
-            <img src="images/channels4_profile-removebg-preview (3).png" alt="Client 2 Logo" width="90">
-            <img src="images/demirtassistem_logo-photoaidcom-invert-removebg-preview.png" width="140" alt="Client 3 Logo">
-            <img src="images/ALKAR_YENI_LOGO_MUTFAGINIZDAKI_ZENGINLIK_1691490722_1704281397-removebg-preview.png" width="140" alt="Client 4 Logo">
+            <div class="client-logos">
+            <img src="images/unnamed-removebg-preview - Kopya (2).png" alt="Client 1 Logo" width="100" height="90">
+            <img src="images/channels4_profile-removebg-preview (3).png" alt="Client 2 Logo" width="90"  height="90">
+            <img src="images/demirtassistem_logo-photoaidcom-invert-removebg-preview.png" width="140" alt="Client 3 Logo"  height="110">
+            <img src="images/ALKAR_YENI_LOGO_MUTFAGINIZDAKI_ZENGINLIK_1691490722_1704281397-removebg-preview.png" width="140"  height="90" alt="Client 4 Logo">
 
         </div>
       </section>
