@@ -590,7 +590,7 @@
      <style>
          .carousel-item {
              opacity: 0;
-             transition: opacity 1s ease; /* Increased duration for slower transition */
+             transition: opacity 1s ease;
          }
 
          .carousel-item.active {
@@ -738,7 +738,7 @@
                       </div>
                       <input type="text" id="subject" class="form-input w-100" name="title" placeholder="Konuyu Giriniz">
                       <textarea class="form-input w-100" id="message" placeholder="Mesajınızı bırakınız, en kısa sürede geri dönüş yapacağız." name="message"></textarea>
-                      <button id="submitBtn" class="btn-grad w-100 text-uppercase" name="button">Gönder ></button>
+                      <button id="submitBtn" class="btn-grad w-100 text-uppercase" name="button">Gönderㅤ<i class="fa-regular fa-paper-plane"></i></button>
                     </form>
                   </div>
                   <div class="col-sm-12 col-md-12 col-lg-4">
@@ -1143,9 +1143,9 @@
       </script>
 
 
-<!-- Google Map -->
+
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
-<!-- End Google Map -->
+
 
 
 
@@ -1159,7 +1159,7 @@
 </button>
 
 <script>
-/* Place script within <head> or before </body> */
+
 let mybutton = document.getElementById("btn-back-to-top");
 
 window.onscroll = function () {
@@ -1167,7 +1167,7 @@ window.onscroll = function () {
 };
 
 function scrollFunction() {
-  const threshold = 50; // Adjust threshold if needed
+  const threshold = 50;
   if (document.body.scrollTop > threshold || document.documentElement.scrollTop > threshold) {
     mybutton.style.bottom = "83px";
   } else {
