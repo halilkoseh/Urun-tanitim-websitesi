@@ -786,14 +786,15 @@
 
 
                         <a href="https://twitter.com/extrasistem" style="margin-right: 10px;">
-                            <img src="images/twitter.png" alt="Twitter Icon" height="19">
+                            <img src="images/twitterr.png" alt="Twitter Icon" height="25">
                         </a>
 
                         <a href="https://www.instagram.com/extrasistem/" style="margin-right: 10px;">
-                            <img src="images/pngwing.com (2).png" alt="Instagram Icon" height="25">
+                            <img src="images/instagrammm.png" alt="Instagram Icon" height="25">
                         </a>
                         <a href="https://www.youtube.com/@extrasistem" style="margin-right: 10px;">
-                            <img src="images/youtube.png" alt="YouTube Icon" style="color: #FF0000; font-size: 12px; height:32px;" >
+                            <img src="images/youtubee.png" alt="YouTube Icon"
+                                style="color: #FF0000; font-size: 12px; height:25px;">
                         </a>
 
 
