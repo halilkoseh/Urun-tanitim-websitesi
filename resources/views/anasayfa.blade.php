@@ -435,8 +435,9 @@
        <div class="row">
           <div class="col-md-6">
              <div class="faq-image">
-                <img src="images/18940.png" alt="Description of the image" style="height: 305px; width: 450px;">
+                <img src="images/about-img.jpg" alt="Description of the image" style="height: 305px; width: 450px;">
             </div>
+            <p> <br> </p>
           </div>
           <div class="col-md-6">
              <div class="faq-list">
