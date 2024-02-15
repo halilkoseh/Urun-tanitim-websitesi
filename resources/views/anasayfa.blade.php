@@ -127,6 +127,10 @@
 
 
 
+
+
+
+
   <section class="about section-padding prelative" data-scroll-index='1' id="about" style="background-color: #F5F5F7">
     <div class="container">
       <div class="row">
@@ -521,11 +525,11 @@
 </section>
 
 
-    <section class="client_section layout_padding" data-scroll-index='4' id="refrance" style="background-color: #F5F5F7">
+    <section class="client_section layout_padding"  id="refrance" style="background-color: #F5F5F7">
 
 
         <div class="container">
-            <div class="row">
+            <div class="row"  data-scroll-index='4'>
               <div class="col-md-12">
                 <div class="sectioner-header text-center black">
                   <h2><br> <br>Referanslar</h2>
@@ -566,6 +570,21 @@
           </div>
 
       </section>
+
+
+
+
+      <section class="clients">
+        <div class="container">
+          <div class="client-logos">
+            <img src="images/unnamed-removebg-preview - Kopya (2).png" alt="Client 1 Logo" width="100">
+            <img src="images/channels4_profile-removebg-preview (3).png" alt="Client 2 Logo" width="90">
+            <img src="images/demirtassistem_logo-photoaidcom-invert-removebg-preview.png" width="140" alt="Client 3 Logo">
+            <img src="images/ALKAR_YENI_LOGO_MUTFAGINIZDAKI_ZENGINLIK_1691490722_1704281397-removebg-preview.png" width="140" alt="Client 4 Logo">
+
+        </div>
+      </section>
+
 
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -643,8 +662,7 @@
 
 
       <p>   <br>
-        <br>
-        <br>  <br> <br> <span class="line"></span><br>  </p>
+         <span class="line"></span><br>  </p>
 
 
 

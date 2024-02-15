@@ -1711,3 +1711,24 @@ body {
 {
     transform: scale(1.1);
 }
+
+.clients {
+    background-color: #FFFFFF;
+    padding: 30px 0;
+  }
+
+  .client-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Logoların taşmasını önlemek için ekledik */
+  }
+
+  .client-logos img {
+    margin: 0 10px; /* Logo arasındaki boşluğu azalttık */
+    transition: transform 0.2s ease; /* Geçişi yumuşatmak için transform kullandık */
+  }
+
+  .client-logos img:hover {
+    transform: scale(1.2); /* Logo boyutu ve konumu korunarak sadece büyütme efekti */
+  }
