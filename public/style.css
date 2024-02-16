@@ -1698,7 +1698,7 @@ body {
 /* Increase icon and text size on hover */
 .feature .media:hover .media-body {
     transform: scale(1.1);
-    background-color: #818992; /* Adjust the scale factor as needed */
+    background-color: #F5F5F7 ; /* Adjust the scale factor as needed */
 }
 
 /* Adjust the transition duration for smoother effect */
