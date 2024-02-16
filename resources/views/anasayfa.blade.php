@@ -734,6 +734,13 @@
 </script>
 
 
+<section class="has-bg-img">
+    <img src="images/manzara.jpg" alt="Background Image">
+    <div class="overlay"></div>
+    <div class="text">
+      <h1 class="display-4"> <strong> Sizin İçin Burdayız </strong></h1>
+    </div>
+  </section><!-- End of Section -->
 
 
     <section class="contact section-padding" data-scroll-index='6' id="iletisim">
