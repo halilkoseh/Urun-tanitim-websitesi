@@ -699,7 +699,7 @@ h3 {
 .popup {
   display: none;
   position: absolute;
-  top: 700%;
+  top: 730%;
   right: 50%;
   transform: translate(50%, -50%);
   background-color: white;
@@ -1684,7 +1684,7 @@ body {
 
 
 .pricing-table .single-table:hover {
-    transform: scale(1.07);
+    transform: scale(1.08);
     z-index: 1;
 }
 
