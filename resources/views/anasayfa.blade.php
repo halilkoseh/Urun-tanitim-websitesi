@@ -38,11 +38,11 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"> <a class="nav-link" data-scroll-nav="0" href="#anasayfa">Anasayfa</a> </li>
                         <li class="nav-item"> <a class="nav-link" data-scroll-nav="1" href="#about">Hakkımızda</a> </li>
-                        <li class="nav-item"> <a class="nav-link" data-scroll-nav="2" href="#service">Hizmetler</a> </li>
+                        <li class="nav-item"> <a class="nav-link" data-scroll-nav="2" href="#service">Hİzmetler</a> </li>
                         <li class="nav-item"> <a class="nav-link" data-scroll-nav="5" href="#sss">SSS</a> </li>
-                        <li class="nav-item"> <a class="nav-link" data-scroll-nav="4" href="#refrance">Referanslar</a> </li>
+                        <li class="nav-item"> <a class="nav-link" data-scroll-nav="4" href="#refrance">MÜŞTERİLERİMİZ</a> </li>
                         <li class="nav-item"> <a class="nav-link" data-scroll-nav="6" href="#iletisim">İletİşİm</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="https://extrasistem.com/register">Kayıt Ol | Giriş Yap</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="https://extrasistem.com/register">Kayıt Ol | GİRİŞ Yap</a> </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('anasayfa') }}">
                                 <img src="https://media.istockphoto.com/id/1053420278/tr/vekt%C3%B6r/t%C3%BCrk-bayra%C4%9F%C4%B1-do%C4%9Fru-oranlar%C4%B1-vekt%C3%B6r.jpg?s=612x612&w=0&k=20&c=tm7M6ziGeCG3G_GLzaEyY5kBYGYd1dSKZXlUdPKXSds="
@@ -612,7 +612,7 @@
             <div class="row"  data-scroll-index='4'>
               <div class="col-md-12">
                 <div class="sectioner-header text-center black">
-                  <h2><br> <br>Referanslar</h2>
+                  <h2><br> <br>Müşterilerimiz</h2>
                   <span class="line"></span>
                   <p>Extra Sistem'de müşteri memnuniyeti önceliklidir, en iyisi olmayı hedefler, insan kaynaklarına önem verir, sürekli gelişimi amaçlar ve çevre bilinciyle sorumluluk taşır.</p>
                 </div>
