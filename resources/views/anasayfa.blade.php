@@ -41,7 +41,7 @@
                         <li class="nav-item"> <a class="nav-link" data-scroll-nav="2" href="#service">Hizmetler</a> </li>
                         <li class="nav-item"> <a class="nav-link" data-scroll-nav="5" href="#sss">SSS</a> </li>
                         <li class="nav-item"> <a class="nav-link" data-scroll-nav="4" href="#refrance">Referanslar</a> </li>
-                        <li class="nav-item"> <a class="nav-link" data-scroll-nav="6" href="#iletisim">İletişİm</a> </li>
+                        <li class="nav-item"> <a class="nav-link" data-scroll-nav="6" href="#iletisim">İletİşİm</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="https://extrasistem.com/register">Kayıt Ol | Giriş Yap</a> </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('anasayfa') }}">
