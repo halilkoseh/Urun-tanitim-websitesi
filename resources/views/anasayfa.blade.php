@@ -1280,7 +1280,7 @@ function scrollFunction() {
   if (document.body.scrollTop > threshold || document.documentElement.scrollTop > threshold) {
     mybutton.style.bottom = "30px";
   } else {
-    mybutton.style.bottom = "-100   0px";
+    mybutton.style.bottom = "-100px";
   }
 }
 
