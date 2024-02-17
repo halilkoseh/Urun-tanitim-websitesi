@@ -41,7 +41,7 @@
                         <li class="nav-item"> <a class="nav-link" data-scroll-nav="2" href="#service">Hizmetler</a> </li>
                         <li class="nav-item"> <a class="nav-link" data-scroll-nav="5" href="#sss">SSS</a> </li>
                         <li class="nav-item"> <a class="nav-link" data-scroll-nav="4" href="#refrance">Referanslar</a> </li>
-                        <li class="nav-item"> <a class="nav-link" data-scroll-nav="6" href="#iletisim">İletişim</a> </li>
+                        <li class="nav-item"> <a class="nav-link" data-scroll-nav="6" href="#iletisim">İletişİm</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="https://extrasistem.com/register">Kayıt Ol | Giriş Yap</a> </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('anasayfa') }}">
@@ -177,96 +177,148 @@
 
 
 
-<!-- Pricing Table -->
-<section class="pricing-table section" style="background-color: #fff">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-title">
-                    <h2><br> <br> Güçlü iş süreçleri için <span style="color:#343A40;">Extra Sistem</span> yanınızda</h2>
-                    <span class="line"></span>
-                    <p></p>
+    <!-- Pricing Table -->
+    <section class="pricing-table section" style="background-color: #fff">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-gl-4"> <!-- Added class 'col-gl-4' -->
+                    <div class="section-title">
+                        <h2><br> <br> Güçlü iş süreçleri için <span style="color:#343A40;">Extra Sistem</span>
+                            yanınızda</h2>
+                        <span class="line"></span>
+                        <p></p>
+                    </div>
                 </div>
+            </div>
+            <div class="row">
+                <!-- Single Table -->
+                <div class="col-lg-4 col-md-12 col-12 col-gl-4"> <!-- Added class 'col-gl-4' -->
+                    <div class="single-table">
+                        <!-- Table Head -->
+                        <div class="table-head">
+                            <div class="icon">
+                                <i class="fa-sharp fa-solid fa-clipboard-list"></i>
+                            </div>
+                            <h4 class="title"></h4>
+                            <div class="price">
+                                <p class="amount">Planlama<span></span></p>
+                            </div>
+                        </div>
+                        <!-- Table List -->
+                        <ul class="table-list">
+                            <li><strong> Puantajı tek ekranda takip edin</li> <!-- Added closing tag -->
+                            <li>İzin süreçlerini kolayca yönetin</li>
+                            <li><br>Çalışan bilgilerini tek bir yerde toplayın<br></strong></li> <!-- Added closing tag -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12 col-gl-4">
+                    <div class="single-table">
+                        <!-- Table Head -->
+                        <div class="table-head">
+                            <div class="icon">
+                                <i class="fa-solid fa-user-check"></i>
+                            </div>
+                            <h4 class="title"></h4>
+                            <div class="price">
+                                <p class="amount">Takip Etme<span></span></p>
+                            </div>
+                        </div>
+                        <!-- Table List -->
+                        <ul class="table-list">
+                            <li><strong> tıkla tüm vardiyayı düzene sokun<br></li>
+                            <li>Bilgilerinizi tek tıkla raporlayın</li>
+                            <li></i> <br> Performans değerlendirme raporları <br><br> </strong></li>
+
+                        </ul>
+
+                        <!-- Table Bottom -->
+                    </div>
+                </div>
+                <!-- End Single Table-->
+                <!-- Single Table -->
+                <div class="col-lg-4 col-md-12 col-12 col-gl-4">
+                    <div class="single-table">
+                        <!-- Table Head -->
+                        <div class="table-head">
+                            <div class="icon">
+                                <i class="fa-solid fa-sitemap"></i>
+                            </div>
+                            <h4 class="title"></h4>
+                            <div class="price">
+                                <p class="amount">Organizasyon<span></span></p>
+                            </div>
+                        </div>
+                        <!-- Table List -->
+                        <ul class="table-list">
+                            <li><strong>Kullanıcı Yönetimi ve Yetkilendirme</< /li>
+                            <li>İşe Alım ve İşe Yerleştirme Yönetimi</li>
+                            <li></i>İş Sağlığı Güvenliği ve SGK Belge Dökümleri Yönetimi</strong></li>
+
+                        </ul>
+
+                        <!-- Table Bottom -->
+                    </div>
+                </div>
+                <!-- End Single Table-->
             </div>
         </div>
-        <div class="row">
-            <!-- Single Table -->
-            <div class="col-lg-4 col-md-12 col-12">
-                <div class="single-table">
-                    <!-- Table Head -->
-                    <div class="table-head">
-                        <div class="icon">
-                            <i class="fa-sharp fa-solid fa-clipboard-list"></i>                             </div>
-                        <h4 class="title"></h4>
-                        <div class="price">
-                            <p class="amount">Planlama<span></span></p>
-                        </div>
-                    </div>
-                    <!-- Table List -->
-                    <ul class="table-list">
-                        <li><strong> Puantajı tek ekranda takip edin</li>
-                        <li>İzin süreçlerini kolayca yönetin</li>
-                        <li></i> <br>Çalışan bilgilerini tek bir yerde toplayın <br>    </strong></li>
+    </section>
 
 
-                    </ul>
 
-                    <!-- Table Bottom -->
-                </div>
-            </div>
-            <!-- End Single Table-->
-            <!-- Single Table -->
-            <div class="col-lg-4 col-md-12 col-12">
-                <div class="single-table">
-                    <!-- Table Head -->
-                    <div class="table-head">
-                        <div class="icon">
-                            <i class="fa-solid fa-user-check"></i>                        </div>
-                        <h4 class="title"></h4>
-                        <div class="price">
-                            <p class="amount">Takip Etme<span></span></p>
-                        </div>
-                    </div>
-                    <!-- Table List -->
-                    <ul class="table-list">
-                        <li><strong> tıkla tüm vardiyayı düzene sokun<br></li>
-                        <li>Bilgilerinizi tek tıkla raporlayın</li>
-                        <li></i> <br> Performans değerlendirme raporları <br><br> </strong></li>
 
-                    </ul>
 
-                    <!-- Table Bottom -->
-                </div>
-            </div>
-            <!-- End Single Table-->
-            <!-- Single Table -->
-            <div class="col-lg-4 col-md-12 col-12">
-                <div class="single-table">
-                    <!-- Table Head -->
-                    <div class="table-head">
-                        <div class="icon">
-                            <i class="fa-solid fa-sitemap"></i>                        </div>
-                        <h4 class="title"></h4>
-                        <div class="price">
-                            <p class="amount">Organizasyon<span></span></p>
-                        </div>
-                    </div>
-                    <!-- Table List -->
-                    <ul class="table-list">
-                        <li><strong>Kullanıcı Yönetimi ve Yetkilendirme</</li>
-                        <li>İşe Alım ve İşe Yerleştirme Yönetimi</li>
-                        <li></i>İş Sağlığı Güvenliği ve SGK Belge Dökümleri Yönetimi</strong></li>
 
-                    </ul>
 
-                    <!-- Table Bottom -->
-                </div>
-            </div>
-            <!-- End Single Table-->
-        </div>
-    </div>
-</section>
-<!--/ End Pricing Table -->
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var elementsToShow = document.querySelectorAll('.col-gl-4');
+
+            function loop() {
+                elementsToShow.forEach(function(element) {
+                    if (isElementInViewport(element)) {
+                        element.classList.add('animate');
+                    } else {
+                        element.classList.remove('animate');
+                    }
+                });
+
+                requestAnimationFrame(loop); // Using requestAnimationFrame for smoother animations
+            }
+
+            loop();
+
+            function isElementInViewport(el) {
+                var rect = el.getBoundingClientRect();
+                return (
+                    rect.top >= 0 &&
+                    rect.left >= 0 &&
+                    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+                );
+            }
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -439,7 +491,7 @@
        <div class="row">
           <div class="col-md-6">
              <div class="faq-image">
-                <img src="images/18940.png" alt="Description of the image" style="height: 305px; width: 450px;">
+                <img src="images/18940.png" alt="Description of the image" style="height: 305px; width: 450px;" loading="lazy">
             </div>
             <p> <br> </p>
           </div>
@@ -492,8 +544,36 @@
  </div>
 
 
+ <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var faqSection = document.querySelector('.faq-section');
+        var faqItems = document.querySelectorAll('.faq-item');
 
+        function animateFaqItems() {
+            faqItems.forEach(function(item) {
+                if (isElementInViewport(item)) {
+                    item.classList.add('animate');
+                } else {
+                    item.classList.remove('animate');
+                }
+            });
+        }
 
+        // Sayfa yüklendiğinde ve tekrar kaydırıldığında animasyonu kontrol et
+        window.addEventListener('scroll', animateFaqItems);
+
+        // Element ekranın içinde mi kontrol eden fonksiyon
+        function isElementInViewport(el) {
+            var rect = el.getBoundingClientRect();
+            return (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
+        }
+    });
+</script>
 
 
 
@@ -909,7 +989,7 @@
                     <img src="images/nav-bullet.png" alt="">
                     Kayıt Ol | Giriş Yap
                   </a>
-                  <a class="" href="price.html">
+                  <a class="" href="    ce.html">
                     <img src="images/nav-bullet.png" alt="">
                     Destek | Geri Bildirim
 
@@ -1198,9 +1278,9 @@ window.onscroll = function () {
 function scrollFunction() {
   const threshold = 50;
   if (document.body.scrollTop > threshold || document.documentElement.scrollTop > threshold) {
-    mybutton.style.bottom = "83px";
+    mybutton.style.bottom = "30px";
   } else {
-    mybutton.style.bottom = "-50px";
+    mybutton.style.bottom = "-100   0px";
   }
 }
 

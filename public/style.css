@@ -1553,8 +1553,8 @@ body {
 
 #btn-back-to-top {
     position: fixed;
-    bottom: 100px;
-    left: 40px;
+    bottom: 30px;
+    right: 40px;
     display: block;
     transition: bottom 0.5s ease;
     background-color: #343A40;
@@ -1674,7 +1674,7 @@ body {
 
 
 .pricing-table .single-table:hover {
-    background-color: #8BA3A7;
+    background-color: #F5F5F7;
 }
 
 .pricing-table .single-table {
@@ -1684,7 +1684,7 @@ body {
 
 
 .pricing-table .single-table:hover {
-    transform: scale(1.05);
+    transform: scale(1.07);
     z-index: 1;
 }
 
@@ -1769,3 +1769,30 @@ body {
   .text h1 {
     font-size: 3rem;
   }
+
+
+/* Animasyon için başlangıçta gizli olan faq-item'ları gizleyin */
+.faq-item {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 3s ease, transform 3s ease;
+  }
+
+  /* Scroll edildiğinde faq-item'ları görünür hale getirin */
+  .faq-item.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+
+
+
+
+  .col-gl-4 {
+    opacity: 0;
+    transition: opacity 3s ease;
+}
+
+.col-gl-4.animate {
+    opacity: 1;
+}
