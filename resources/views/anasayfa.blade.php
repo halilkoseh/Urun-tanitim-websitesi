@@ -130,8 +130,7 @@
 
 
 
-
-  <section class="about section-padding prelative" data-scroll-index='1' id="about" style="background-color: #F5F5F7">
+<section class="about section-padding prelative" data-scroll-index='1' id="about" style="background-color: #F5F5F7">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -140,41 +139,38 @@
             <span class="line"></span>
             <p>
               Extra Sistem, işletmelerin personel yönetimini kolaylaştırmayı amaçlayan bir mobil uygulamadır. Güçlü
-              özelliklere ve kullanıcı dostu arayüze sahiptir. <br> <br> Personelin izin durumu, performans
-              değerlendirmeleri gibi birçok önemli bilgiyi anlık olarak takip etme imkanı sunar, iş verimliliğini
-              artırmaya yönelik ideal bir çözümdür.
-              <br> <br> Extra Sistem, MFE Teknoloji A.Ş. tarafından geliştirilen güçlü bir insan kaynakları çözümüdür.
+              özelliklere ve kullanıcı dostu arayüze sahiptir.<br><br> Personelin izin durumu, performans değerlendirmeleri gibi birçok önemli bilgiyi anlık olarak takip etme imkanı sunar, iş verimliliğini artırmaya yönelik ideal bir çözümdür.
+              <br><br> Extra Sistem, MFE Teknoloji A.Ş. tarafından geliştirilen güçlü bir insan kaynakları çözümüdür.
             </p>
           </div>
           <div class="section-content text-center">
             <div class="row">
               <div class="col-md-4">
-                <div class="icon-box wow fadeInUp" data-wow-delay="0.2s"> <i class="fa fa-life-ring"
+                <div class="icon-box wow fadeInUp" data-wow-delay="0.2s"> <i class="fa fa-brain"></i>
+                  <h5>Yapay Zeka</h5>
+                  <p>İnsan Kaynakları süreçlerini analiz eder ve iyileştirmelerde bulunur.</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="icon-box wow fadeInUp" data-wow-delay="0.4s"> <i class="fa fa-life-ring"
                     aria-hidden="true"></i>
                   <h5>Destek</h5>
                   <p>Entegrasyon, eğitim, güvenlik ve güncellemeler ile daima yanınızdayız.</p>
                 </div>
               </div>
               <div class="col-md-4">
-                <div class="icon-box wow fadeInUp" data-wow-delay="0.4s"> <i class="fa fa-mobile"
+                <div class="icon-box wow fadeInUp" data-wow-delay="0.6s"> <i class="fa fa-mobile"
                     aria-hidden="true"></i>
-                  <h5>Çapraz Platform </h5>
-                  <p> Mobil uygulama ile her zaman her yerde kolayca erişim sağlayabilirsiniz.
-                  </p>
+                  <h5>Çapraz Platform</h5>
+                  <p>Mobil uygulama ile her zaman her yerde kolayca erişim sağlayabilirsiniz.</p>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="icon-box wow fadeInUp" data-wow-delay="0.6s"> <i class="fa fa-bolt" aria-hidden="true"></i>
-                  <h5>Hızlı</h5>
-                  <p>Verimliliği artırın ve iş süreçlerinizi hızlandırın..</p>
-                </div>
-              </div>
-
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
-
 
 
     <!-- Pricing Table -->
@@ -327,10 +323,10 @@
 
  </p>
 
-  <section class="feature section-padding" data-scroll-index='2' id="service" style="background-color: #F5F5F7">
+ <section class="feature section-padding" data-scroll-index='2' id="service" style="background-color: #F5F5F7">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-m-12">
           <div class="sectioner-header text-center">
             <h3>Hizmetler</h3>
             <span class="line"></span>
@@ -438,7 +434,63 @@
     </div>
   </section>
 
-  </head>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+    var faqSection = document.querySelector('.section-content');
+    var faqItems = document.querySelectorAll('.section-content .media');
+
+    function animateFaqItems() {
+        faqItems.forEach(function(item) {
+            if (isElementInViewport(item)) {
+                item.classList.add('animate');
+            } else {
+                item.classList.remove('animate');
+            }
+        });
+    }
+
+    // Sayfa yüklendiğinde ve tekrar kaydırıldığında animasyonu kontrol et
+    window.addEventListener('scroll', animateFaqItems);
+
+    // Element ekranın içinde mi kontrol eden fonksiyon
+    function isElementInViewport(el) {
+        var rect = el.getBoundingClientRect();
+        return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+    }
+});
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   <section class="video-section prelative text-center white">
@@ -490,9 +542,11 @@
        </div>
        <div class="row">
           <div class="col-md-6">
-             <div class="faq-image">
+            <div class="faq-image" id="image-container">
                 <img src="images/18940.png" alt="Description of the image" style="height: 305px; width: 450px;" loading="lazy">
             </div>
+
+
             <p> <br> </p>
           </div>
           <div class="col-md-6">
@@ -549,6 +603,7 @@
         var faqSection = document.querySelector('.faq-section');
         var faqItems = document.querySelectorAll('.faq-item');
 
+
         function animateFaqItems() {
             faqItems.forEach(function(item) {
                 if (isElementInViewport(item)) {
@@ -574,6 +629,8 @@
         }
     });
 </script>
+
+
 
 
 
@@ -866,6 +923,43 @@
           </div>
         </div>
       </section>
+
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+    var elementsToShow = document.querySelectorAll('.col-md-12');
+
+    function loop() {
+        elementsToShow.forEach(function(element) {
+            if (isElementInViewport(element)) {
+                element.classList.add('animate');
+            } else {
+                element.classList.remove('animate');
+            }
+        });
+
+        scroll(loop);
+    }
+
+    loop();
+
+    function isElementInViewport(el) {
+        var rect = el.getBoundingClientRect();
+        return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+    }
+
+    function scroll(callback) {
+        window.addEventListener('scroll', callback);
+    }
+});
+</script>
+
+
 
 
 
@@ -1293,6 +1387,23 @@ function backToTop() {
   });
 }
 </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   </body>
 
 

@@ -1565,7 +1565,7 @@ body {
 
 @media (max-width: 768px) {
     #btn-back-to-top {
-        left: 10px;
+        right: 10px;
     }
 }
 
@@ -1772,14 +1772,14 @@ body {
 
 
 /* Animasyon için başlangıçta gizli olan faq-item'ları gizleyin */
-.faq-item {
+.faq-item{
     opacity: 0;
     transform: translateY(20px);
-    transition: opacity 3s ease, transform 3s ease;
+    transition: opacity 1.5s ease, transform 1.5s ease;
   }
 
   /* Scroll edildiğinde faq-item'ları görünür hale getirin */
-  .faq-item.animate {
+  .faq-item.animate{
     opacity: 1;
     transform: translateY(0);
   }
@@ -1790,9 +1790,48 @@ body {
 
   .col-gl-4 {
     opacity: 0;
-    transition: opacity 3s ease;
+    transition: opacity 1.8s ease;
 }
 
 .col-gl-4.animate {
     opacity: 1;
+}
+
+
+
+.col-md-12{
+
+        opacity: 0;
+        transition: opacity 1s ease;
+    }
+
+
+    .col-md-12.animate {
+        opacity: 1;
+    }
+
+
+
+
+/* Animasyon için başlangıçta gizli olan faq-item'ları gizleyin */
+.section-content .media {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 2s ease, transform 1s ease;
+}
+
+/* Scroll edildiğinde faq-item'ları görünür hale getirin */
+.section-content .media.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .col-md-12 {
+        /* Mobil cihazlara özel özellikler */
+        /* Örnek olarak, animasyon ekleyebilirsiniz */
+        opacity: 1;
+        transition: opacity 1s ease;
+    }
 }
