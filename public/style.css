@@ -1430,13 +1430,12 @@ body {
 }
 
 .accent-color {
-    color:#2B8192;
+    color: #2C2B30;
 }
 
 .faq-image img {
-    width: 100%;
-    height: auto;
-    display: block;
+    width: 90%;
+    height: 300px;
 }
 
 .faq-item {
@@ -1457,7 +1456,7 @@ body {
     line-height: 1;
     vertical-align: middle;
     transform: translateY(-3px);
-    color: #03393F;
+    color: #3D3D3D;
 }
 
 .answer p {
@@ -1835,3 +1834,74 @@ body {
         transition: opacity 1s ease;
     }
 }
+
+
+
+    /* Mobil cihazlar için */
+    @media only screen and (max-width: 600px) {
+        .faq-image img {
+            width: 100%; /* Ekranın genişliğine yayılmak için */
+            height: auto; /* Oranları korumak için */
+        }
+    }
+
+
+    /* Genel stil */
+    .has-bg-img {
+        position: relative;
+        text-align: center; /* Resmi merkezlemek için */
+        overflow: hidden; /* Resim taşmalarını önlemek için */
+    }
+
+    .has-bg-img img {
+        width: 100%; /* Resmin genişliğini ayarlamak için */
+        height: auto; /* Oranları korumak için */
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* Mobil cihazlar için */
+    @media only screen and (max-width: 600px) {
+        .has-bg-img img {
+            width: auto; /* Mobil cihazlarda resmi orijinal boyutunda göstermek için */
+            max-width: 100%; /* Resmin taşmasını önlemek için */
+            height: 155px/* Oranları korumak için */
+        }
+
+
+
+
+    }
+    .logo-slideshow-container {
+        max-width: 123%; /* Full width */
+      }
+
+      .silide-track {
+        display: flex; /* Display logos side by side */
+        animation: scroll 80s linear infinite; /* Adjust animation duration */
+      }
+
+      .silide {
+        flex: 0 0 auto;
+        margin: 0 15px; /* Adjust spacing between logos */
+      }
+
+      .silide img {
+      }
+
+      .slayt {
+        background-color: #F5F5F7; /* Light background color */
+        padding: 10px; /* Add padding for better appearance */
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 0 4px 8px #F5F5F7; /* Add shadow for depth */
+        border: 1px solid #ACADAF; /* Border */
+        height: 110px;
+      }
+
+      @keyframes scroll {
+        0% { transform: translateX(-107%); }
+        100% { transform: translateX(100%); }
+      }
+
+

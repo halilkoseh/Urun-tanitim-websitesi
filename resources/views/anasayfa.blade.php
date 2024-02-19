@@ -159,8 +159,7 @@
                 </div>
               </div>
               <div class="col-md-4">
-                <div class="icon-box wow fadeInUp" data-wow-delay="0.6s"> <i class="fa fa-mobile"
-                    aria-hidden="true"></i>
+                <div class="icon-box wow fadeInUp" data-wow-delay="0.6s"> <i class="fa-solid fa-mobile-button"></i>
                   <h5>Çapraz Platform</h5>
                   <p>Mobil uygulama ile her zaman her yerde kolayca erişim sağlayabilirsiniz.</p>
                 </div>
@@ -543,7 +542,7 @@
        <div class="row">
           <div class="col-md-6">
             <div class="faq-image" id="image-container">
-                <img src="images/18940.png" alt="Description of the image" style="height: 305px; width: 450px;" loading="lazy">
+                <img src="images/faq.png" alt="Resmin açıklaması" loading="lazy" height="100px">
             </div>
 
 
@@ -553,6 +552,7 @@
              <div class="faq-list">
                 <div class="faq-item">
                    <div class="question">
+                    <p> </p>
                       <h5><span class="plus-icon">⮞</span> Extra Sistem nasıl çalışır ve nasıl kullanılır?</h5>
                    </div>
                    <div class="answer">
@@ -644,7 +644,7 @@
           <h3>Mobil Uygulamamızı Edinin</h3>
           <span class="line"></span>
           <p class="white"><a href="https://extrasistem.com"><span style="color: rgb(255, 255, 255);"> <br> <br>Extra Sistem</span></a> 'i
-            tüm uygulama mağazalarından indirebilirsiniz.</p>
+            tüm uygulama marketlerinden indirebilirsiniz.</p>
         </div>
       </div>
       <div class="col-md-12">
@@ -713,23 +713,373 @@
       </section>
 
 
+<div class="logo-slideshow-container">
 
+      <div class="slayt">
+        <div class="silide-track">
+            <div class="silide">
 
-      <section class="clients">
-        <div class="container">
-            <div class="client-logos">
+                <img src="images/unnamed-removebg-preview - Kopya (2).png" alt="Client 1 Logo" width="100" height="90">
+              </div>
+
+            <div class="silide">
+                <img src="images/demirtassistem_logo-photoaidcom-invert-removebg-preview.png" width="140" alt="Client 3 Logo"  height="110">
+              </div>
+
+            <div class="silide">
             <img src="images/unnamed-removebg-preview - Kopya (2).png" alt="Client 1 Logo" width="100" height="90">
+          </div>
+
+          <div class="silide">
             <img src="images/channels4_profile-removebg-preview (3).png" alt="Client 2 Logo" width="90"  height="90">
-            <img src="images/demirtassistem_logo-photoaidcom-invert-removebg-preview.png" width="140" alt="Client 3 Logo"  height="110">
+          </div>
+
+          <div class="silide">
             <img src="images/ALKAR_YENI_LOGO_MUTFAGINIZDAKI_ZENGINLIK_1691490722_1704281397-removebg-preview.png" width="140"  height="90" alt="Client 4 Logo">
+          </div>
+
+          <div class="silide">
+            <img src="images/demirtassistem_logo-photoaidcom-invert-removebg-preview.png" width="140" alt="Client 3 Logo"  height="110">
+          </div>
+          <div class="silide">
+            <img src="images/unnamed-removebg-preview - Kopya (2).png" alt="Client 1 Logo" width="100" height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/channels4_profile-removebg-preview (3).png" alt="Client 2 Logo" width="90"  height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/ALKAR_YENI_LOGO_MUTFAGINIZDAKI_ZENGINLIK_1691490722_1704281397-removebg-preview.png" width="140"  height="90" alt="Client 4 Logo">
+          </div>
+
+          <div class="silide">
+            <img src="images/demirtassistem_logo-photoaidcom-invert-removebg-preview.png" width="140" alt="Client 3 Logo"  height="110">
+          </div>
+          <div class="silide">
+            <img src="images/unnamed-removebg-preview - Kopya (2).png" alt="Client 1 Logo" width="100" height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/channels4_profile-removebg-preview (3).png" alt="Client 2 Logo" width="90"  height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/ALKAR_YENI_LOGO_MUTFAGINIZDAKI_ZENGINLIK_1691490722_1704281397-removebg-preview.png" width="140"  height="90" alt="Client 4 Logo">
+          </div>
+
+          <div class="silide">
+            <img src="images/demirtassistem_logo-photoaidcom-invert-removebg-preview.png" width="140" alt="Client 3 Logo"  height="110">
+          </div>
+          <div class="silide">
+            <img src="images/unnamed-removebg-preview - Kopya (2).png" alt="Client 1 Logo" width="100" height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/channels4_profile-removebg-preview (3).png" alt="Client 2 Logo" width="90"  height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/ALKAR_YENI_LOGO_MUTFAGINIZDAKI_ZENGINLIK_1691490722_1704281397-removebg-preview.png" width="140"  height="90" alt="Client 4 Logo">
+          </div>
+
+          <div class="silide">
+            <img src="images/demirtassistem_logo-photoaidcom-invert-removebg-preview.png" width="140" alt="Client 3 Logo"  height="110">
+          </div>
+          <div class="silide">
+            <img src="images/unnamed-removebg-preview - Kopya (2).png" alt="Client 1 Logo" width="100" height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/channels4_profile-removebg-preview (3).png" alt="Client 2 Logo" width="90"  height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/ALKAR_YENI_LOGO_MUTFAGINIZDAKI_ZENGINLIK_1691490722_1704281397-removebg-preview.png" width="140"  height="90" alt="Client 4 Logo">
+          </div>
+
+          <div class="silide">
+            <img src="images/demirtassistem_logo-photoaidcom-invert-removebg-preview.png" width="140" alt="Client 3 Logo"  height="110">
+          </div>
+          <div class="silide">
+            <img src="images/unnamed-removebg-preview - Kopya (2).png" alt="Client 1 Logo" width="100" height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/channels4_profile-removebg-preview (3).png" alt="Client 2 Logo" width="90"  height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/ALKAR_YENI_LOGO_MUTFAGINIZDAKI_ZENGINLIK_1691490722_1704281397-removebg-preview.png" width="140"  height="90" alt="Client 4 Logo">
+          </div>
+
+          <div class="silide">
+            <img src="images/demirtassistem_logo-photoaidcom-invert-removebg-preview.png" width="140" alt="Client 3 Logo"  height="110">
+          </div>
+          <div class="silide">
+            <img src="images/unnamed-removebg-preview - Kopya (2).png" alt="Client 1 Logo" width="100" height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/channels4_profile-removebg-preview (3).png" alt="Client 2 Logo" width="90"  height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/ALKAR_YENI_LOGO_MUTFAGINIZDAKI_ZENGINLIK_1691490722_1704281397-removebg-preview.png" width="140"  height="90" alt="Client 4 Logo">
+          </div>
+
+          <div class="silide">
+            <img src="images/demirtassistem_logo-photoaidcom-invert-removebg-preview.png" width="140" alt="Client 3 Logo"  height="110">
+          </div>
+          <div class="silide">
+            <img src="images/unnamed-removebg-preview - Kopya (2).png" alt="Client 1 Logo" width="100" height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/channels4_profile-removebg-preview (3).png" alt="Client 2 Logo" width="90"  height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/ALKAR_YENI_LOGO_MUTFAGINIZDAKI_ZENGINLIK_1691490722_1704281397-removebg-preview.png" width="140"  height="90" alt="Client 4 Logo">
+          </div>
+
+          <div class="silide">
+            <img src="images/demirtassistem_logo-photoaidcom-invert-removebg-preview.png" width="140" alt="Client 3 Logo"  height="110">
+          </div>
+          <div class="silide">
+            <img src="images/unnamed-removebg-preview - Kopya (2).png" alt="Client 1 Logo" width="100" height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/channels4_profile-removebg-preview (3).png" alt="Client 2 Logo" width="90"  height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/ALKAR_YENI_LOGO_MUTFAGINIZDAKI_ZENGINLIK_1691490722_1704281397-removebg-preview.png" width="140"  height="90" alt="Client 4 Logo">
+          </div>
+
+          <div class="silide">
+            <img src="images/demirtassistem_logo-photoaidcom-invert-removebg-preview.png" width="140" alt="Client 3 Logo"  height="110">
+          </div>
+          <div class="silide">
+            <img src="images/unnamed-removebg-preview - Kopya (2).png" alt="Client 1 Logo" width="100" height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/channels4_profile-removebg-preview (3).png" alt="Client 2 Logo" width="90"  height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/ALKAR_YENI_LOGO_MUTFAGINIZDAKI_ZENGINLIK_1691490722_1704281397-removebg-preview.png" width="140"  height="90" alt="Client 4 Logo">
+          </div>
+
+          <div class="silide">
+            <img src="images/demirtassistem_logo-photoaidcom-invert-removebg-preview.png" width="140" alt="Client 3 Logo"  height="110">
+          </div>
+          <div class="silide">
+            <img src="images/unnamed-removebg-preview - Kopya (2).png" alt="Client 1 Logo" width="100" height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/channels4_profile-removebg-preview (3).png" alt="Client 2 Logo" width="90"  height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/ALKAR_YENI_LOGO_MUTFAGINIZDAKI_ZENGINLIK_1691490722_1704281397-removebg-preview.png" width="140"  height="90" alt="Client 4 Logo">
+          </div>
+
+          <div class="silide">
+            <img src="images/demirtassistem_logo-photoaidcom-invert-removebg-preview.png" width="140" alt="Client 3 Logo"  height="110">
+          </div>
+          <div class="silide">
+            <img src="images/unnamed-removebg-preview - Kopya (2).png" alt="Client 1 Logo" width="100" height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/channels4_profile-removebg-preview (3).png" alt="Client 2 Logo" width="90"  height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/ALKAR_YENI_LOGO_MUTFAGINIZDAKI_ZENGINLIK_1691490722_1704281397-removebg-preview.png" width="140"  height="90" alt="Client 4 Logo">
+          </div>
+
+          <div class="silide">
+            <img src="images/demirtassistem_logo-photoaidcom-invert-removebg-preview.png" width="140" alt="Client 3 Logo"  height="110">
+          </div>
+          <div class="silide">
+            <img src="images/unnamed-removebg-preview - Kopya (2).png" alt="Client 1 Logo" width="100" height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/channels4_profile-removebg-preview (3).png" alt="Client 2 Logo" width="90"  height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/ALKAR_YENI_LOGO_MUTFAGINIZDAKI_ZENGINLIK_1691490722_1704281397-removebg-preview.png" width="140"  height="90" alt="Client 4 Logo">
+          </div>
+
+          <div class="silide">
+            <img src="images/demirtassistem_logo-photoaidcom-invert-removebg-preview.png" width="140" alt="Client 3 Logo"  height="110">
+          </div>
+          <div class="silide">
+            <img src="images/unnamed-removebg-preview - Kopya (2).png" alt="Client 1 Logo" width="100" height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/channels4_profile-removebg-preview (3).png" alt="Client 2 Logo" width="90"  height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/ALKAR_YENI_LOGO_MUTFAGINIZDAKI_ZENGINLIK_1691490722_1704281397-removebg-preview.png" width="140"  height="90" alt="Client 4 Logo">
+          </div>
+
+          <div class="silide">
+            <img src="images/demirtassistem_logo-photoaidcom-invert-removebg-preview.png" width="140" alt="Client 3 Logo"  height="110">
+          </div>
+          <div class="silide">
+            <img src="images/unnamed-removebg-preview - Kopya (2).png" alt="Client 1 Logo" width="100" height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/channels4_profile-removebg-preview (3).png" alt="Client 2 Logo" width="90"  height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/ALKAR_YENI_LOGO_MUTFAGINIZDAKI_ZENGINLIK_1691490722_1704281397-removebg-preview.png" width="140"  height="90" alt="Client 4 Logo">
+          </div>
+
+          <div class="silide">
+            <img src="images/demirtassistem_logo-photoaidcom-invert-removebg-preview.png" width="140" alt="Client 3 Logo"  height="110">
+          </div>
+          <div class="silide">
+            <img src="images/unnamed-removebg-preview - Kopya (2).png" alt="Client 1 Logo" width="100" height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/channels4_profile-removebg-preview (3).png" alt="Client 2 Logo" width="90"  height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/ALKAR_YENI_LOGO_MUTFAGINIZDAKI_ZENGINLIK_1691490722_1704281397-removebg-preview.png" width="140"  height="90" alt="Client 4 Logo">
+          </div>
+
+          <div class="silide">
+            <img src="images/demirtassistem_logo-photoaidcom-invert-removebg-preview.png" width="140" alt="Client 3 Logo"  height="110">
+          </div>
+          <div class="silide">
+            <img src="images/unnamed-removebg-preview - Kopya (2).png" alt="Client 1 Logo" width="100" height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/channels4_profile-removebg-preview (3).png" alt="Client 2 Logo" width="90"  height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/ALKAR_YENI_LOGO_MUTFAGINIZDAKI_ZENGINLIK_1691490722_1704281397-removebg-preview.png" width="140"  height="90" alt="Client 4 Logo">
+          </div>
+
+          <div class="silide">
+            <img src="images/demirtassistem_logo-photoaidcom-invert-removebg-preview.png" width="140" alt="Client 3 Logo"  height="110">
+          </div>
+          <div class="silide">
+            <img src="images/unnamed-removebg-preview - Kopya (2).png" alt="Client 1 Logo" width="100" height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/channels4_profile-removebg-preview (3).png" alt="Client 2 Logo" width="90"  height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/ALKAR_YENI_LOGO_MUTFAGINIZDAKI_ZENGINLIK_1691490722_1704281397-removebg-preview.png" width="140"  height="90" alt="Client 4 Logo">
+          </div>
+
+          <div class="silide">
+            <img src="images/demirtassistem_logo-photoaidcom-invert-removebg-preview.png" width="140" alt="Client 3 Logo"  height="110">
+          </div>
+          <div class="silide">
+            <img src="images/unnamed-removebg-preview - Kopya (2).png" alt="Client 1 Logo" width="100" height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/channels4_profile-removebg-preview (3).png" alt="Client 2 Logo" width="90"  height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/ALKAR_YENI_LOGO_MUTFAGINIZDAKI_ZENGINLIK_1691490722_1704281397-removebg-preview.png" width="140"  height="90" alt="Client 4 Logo">
+          </div>
+
+          <div class="silide">
+            <img src="images/demirtassistem_logo-photoaidcom-invert-removebg-preview.png" width="140" alt="Client 3 Logo"  height="110">
+          </div>
+          <div class="silide">
+            <img src="images/unnamed-removebg-preview - Kopya (2).png" alt="Client 1 Logo" width="100" height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/channels4_profile-removebg-preview (3).png" alt="Client 2 Logo" width="90"  height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/ALKAR_YENI_LOGO_MUTFAGINIZDAKI_ZENGINLIK_1691490722_1704281397-removebg-preview.png" width="140"  height="90" alt="Client 4 Logo">
+          </div>
+
+          <div class="silide">
+            <img src="images/demirtassistem_logo-photoaidcom-invert-removebg-preview.png" width="140" alt="Client 3 Logo"  height="110">
+          </div>
+          <div class="silide">
+            <img src="images/unnamed-removebg-preview - Kopya (2).png" alt="Client 1 Logo" width="100" height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/channels4_profile-removebg-preview (3).png" alt="Client 2 Logo" width="90"  height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/ALKAR_YENI_LOGO_MUTFAGINIZDAKI_ZENGINLIK_1691490722_1704281397-removebg-preview.png" width="140"  height="90" alt="Client 4 Logo">
+          </div>
+
+          <div class="silide">
+            <img src="images/demirtassistem_logo-photoaidcom-invert-removebg-preview.png" width="140" alt="Client 3 Logo"  height="110">
+          </div>
+          <div class="silide">
+            <img src="images/unnamed-removebg-preview - Kopya (2).png" alt="Client 1 Logo" width="100" height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/channels4_profile-removebg-preview (3).png" alt="Client 2 Logo" width="90"  height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/ALKAR_YENI_LOGO_MUTFAGINIZDAKI_ZENGINLIK_1691490722_1704281397-removebg-preview.png" width="140"  height="90" alt="Client 4 Logo">
+          </div>
+
+          <div class="silide">
+            <img src="images/demirtassistem_logo-photoaidcom-invert-removebg-preview.png" width="140" alt="Client 3 Logo"  height="110">
+          </div>
+          <div class="silide">
+            <img src="images/unnamed-removebg-preview - Kopya (2).png" alt="Client 1 Logo" width="100" height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/channels4_profile-removebg-preview (3).png" alt="Client 2 Logo" width="90"  height="90">
+          </div>
+
+          <div class="silide">
+            <img src="images/ALKAR_YENI_LOGO_MUTFAGINIZDAKI_ZENGINLIK_1691490722_1704281397-removebg-preview.png" width="140"  height="90" alt="Client 4 Logo">
+          </div>
+
+          <div class="silide">
+            <img src="images/demirtassistem_logo-photoaidcom-invert-removebg-preview.png" width="140" alt="Client 3 Logo"  height="110">
+          </div>
+
+
 
         </div>
-      </section>
+
+            </div>
 
 
 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="script.js"></script>
 
       <script>
         $(document).ready(function(){
@@ -795,7 +1145,7 @@
              });
 
              // Start automatic sliding
-             intervalId = setInterval(slideNext, 5000); // Slide every 5 seconds
+             intervalId = setInterval(slideNext, 10000); // Slide every 5 seconds
          });
      </script>
 
@@ -871,14 +1221,14 @@
 </script>
 
 
+
 <section class="has-bg-img">
-    <img src="images/manzara.jpg" alt="Background Image">
+    <img src="images/manzara.jpg" alt="Arka Plan Resmi">
     <div class="overlay"></div>
     <div class="text">
-      <h1 class="display-4"> <strong> Sizin İçin Burdayız </strong></h1>
+        <h1 class="display-4"> <strong> Sizin İçin Buradayız </strong></h1>
     </div>
-  </section><!-- End of Section -->
-
+</section>
 
     <section class="contact section-padding" data-scroll-index='6' id="iletisim">
         <div class="container">
