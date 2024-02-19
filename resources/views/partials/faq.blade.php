@@ -1,4 +1,3 @@
-
 <div class="faq-section" data-scroll-index='5'>
     <div class="container">
        <div class="row">
@@ -11,18 +10,16 @@
        </div>
        <div class="row">
           <div class="col-md-6">
-            <div class="faq-image" id="image-container">
-                <img src="images/faq.png" alt="Resmin açıklaması" loading="lazy" height="100px">
-            </div>
-
-
-            <p> <br> </p>
+             <div class="faq-image" id="image-container">
+                <img   src="{{ asset('images/faq.png') }}" alt="Resmin açıklaması" loading="lazy" height="100px">
+             </div>
+             <p> <br> </p>
           </div>
           <div class="col-md-6">
              <div class="faq-list">
                 <div class="faq-item">
                    <div class="question">
-                    <p> </p>
+                      <p> </p>
                       <h5><span class="plus-icon">⮞</span> Extra Sistem nasıl çalışır ve nasıl kullanılır?</h5>
                    </div>
                    <div class="answer">
@@ -66,6 +63,3 @@
        </div>
     </div>
  </div>
-
-
-

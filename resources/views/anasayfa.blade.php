@@ -7,7 +7,7 @@
         @include('partials.about')
         @include('partials.threebox1')
         @include('partials.services')
-        @include('partials.video')  
+        @include('partials.video')
         @include('partials.faq')
         @include('partials.download')
         @include('partials.refrance')
@@ -54,10 +54,8 @@
                     });
                 }
 
-                // Sayfa yüklendiğinde ve tekrar kaydırıldığında animasyonu kontrol et
                 window.addEventListener("scroll", animateFaqItems);
 
-                // Element ekranın içinde mi kontrol eden fonksiyon
                 function isElementInViewport(el) {
                     var rect = el.getBoundingClientRect();
                     return rect.top >= 0 && rect.left >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && rect.right <= (window.innerWidth || document.documentElement.clientWidth);
@@ -84,10 +82,8 @@
                     });
                 }
 
-                // Sayfa yüklendiğinde ve tekrar kaydırıldığında animasyonu kontrol et
                 window.addEventListener("scroll", animateFaqItems);
 
-                // Element ekranın içinde mi kontrol eden fonksiyon
                 function isElementInViewport(el) {
                     var rect = el.getBoundingClientRect();
                     return rect.top >= 0 && rect.left >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && rect.right <= (window.innerWidth || document.documentElement.clientWidth);
@@ -103,9 +99,9 @@
                 $(".faq-item .question").click(function () {
                     $(this).toggleClass("active").next(".answer").slideToggle();
                     if ($(this).hasClass("active")) {
-                        $(this).find(".plus-icon").text("🗘"); // Tıklandığında
+                        $(this).find(".plus-icon").text("🗘");
                     } else {
-                        $(this).find(".plus-icon").text("⮞"); // Kapatıldığında
+                        $(this).find(".plus-icon").text("⮞");
                     }
                     $(".faq-item .question").not(this).removeClass("active").next(".answer").slideUp();
                 });
@@ -163,36 +159,36 @@
 
                 function slideNext() {
                     carouselItems[currentIndex].classList.remove("active");
-                    carouselItems[currentIndex].style.opacity = 0; // Instantly set opacity to 0
+                    carouselItems[currentIndex].style.opacity = 0;
                     currentIndex = currentIndex === carouselItems.length - 1 ? 0 : currentIndex + 1;
                     carouselItems[currentIndex].classList.add("active");
                     setTimeout(function () {
-                        carouselItems[currentIndex].style.opacity = 1; // Fade in after a longer delay
-                    }, 500); // Adjust delay as needed
+                        carouselItems[currentIndex].style.opacity = 1;
+                    }, 500);
                 }
 
                 function slidePrev() {
                     carouselItems[currentIndex].classList.remove("active");
-                    carouselItems[currentIndex].style.opacity = 0; // Instantly set opacity to 0
+                    carouselItems[currentIndex].style.opacity = 0;
                     currentIndex = currentIndex === 0 ? carouselItems.length - 1 : currentIndex - 1;
                     carouselItems[currentIndex].classList.add("active");
                     setTimeout(function () {
-                        carouselItems[currentIndex].style.opacity = 1; // Fade in after a longer delay
-                    }, 500); // Adjust delay as needed
+                        carouselItems[currentIndex].style.opacity = 1;
+                    }, 500);
                 }
 
                 document.querySelector(".carousel-control-prev").addEventListener("click", function () {
                     slidePrev();
-                    clearInterval(intervalId); // Stop automatic sliding when user clicks prev button
+                    clearInterval(intervalId);
                 });
 
                 document.querySelector(".carousel-control-next").addEventListener("click", function () {
                     slideNext();
-                    clearInterval(intervalId); // Stop automatic sliding when user clicks next button
+                    clearInterval(intervalId);
                 });
 
                 // Start automatic sliding
-                intervalId = setInterval(slideNext, 10000); // Slide every 5 seconds
+                intervalId = setInterval(slideNext, 10000);
             });
         </script>
 
