@@ -101,7 +101,7 @@
                             yönetebilir, iş verimliliğinizi artırabilirsiniz. <br> <br> Mobil uygulama ve Web
                             sitesi ile
                             her zaman her yerde
-                            erişilebilir. İşletmenizin büyümesine ve başarısına katkıda bulunur. Her şey tek bir
+                            erişilebilir. İşletmenizin büyümesine ve başarısına katkıda bulunur. <br>Her şey tek bir
                             yazılımda ...
                         </p>
                         <ul>
@@ -138,9 +138,15 @@
             <h3>Hakkımızda</h3>
             <span class="line"></span>
             <p>
-              Extra Sistem, işletmelerin personel yönetimini kolaylaştırmayı amaçlayan bir mobil uygulamadır. Güçlü
-              özelliklere ve kullanıcı dostu arayüze sahiptir.<br><br> Personelin izin durumu, performans değerlendirmeleri gibi birçok önemli bilgiyi anlık olarak takip etme imkanı sunar, iş verimliliğini artırmaya yönelik ideal bir çözümdür.
-              <br><br> Extra Sistem, MFE Teknoloji A.Ş. tarafından geliştirilen güçlü bir insan kaynakları çözümüdür.
+              Extra Sistem, işletmelerin İnsan Kaynakaları   yönetimini kolaylaştırmayı amaçlayan çapraz platform destekli bir yazılımdır. İhtiyacınız olan tüm
+              özelliklere ve kullanıcı dostu arayüze sahiptir.<br><br> Personelin izin ve mesai durumu, puantaj ve performans değerlendirmeleri gibi birçok önemli bilgiyi anlık olarak takip etme imkanı sunar, iş verimliliğini artırmaya yönelik ideal yapay zeka destekli bir çözümdür.
+              <br><br> Extra Sistem, MFE Teknoloji A.Ş. tarafından geliştirilen ve özelleştirilebilir bir insan kaynakları çözümüdür.
+
+
+
+
+
+
             </p>
           </div>
           <div class="section-content text-center">
@@ -1621,7 +1627,6 @@
         crossorigin="anonymous"></script>
 
       <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-      <!-- scrollIt js -->
 
       <script src="scrollIt.min.js"></script>
       <script src="wow.min.js"></script>
@@ -1681,10 +1686,10 @@
 
           $.scrollIt({
 
-            easing: 'swing',      // the easing function for animation
-            scrollTime: 900,       // how long (in ms) the animation takes
-            activeClass: 'active', // class given to the active nav element
-            onPageChange: null,    // function(pageIndex) that is called when page is changed
+            easing: 'swing',
+            scrollTime: 900,
+            activeClass: 'active',
+            onPageChange: null,
             topOffset: -63
           });
         });

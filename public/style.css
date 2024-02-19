@@ -1011,7 +1011,7 @@ body {
     100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
-.footer #button {
+.footer #button {       
     animation: shake 0.5s infinite;
 }
 
