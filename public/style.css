@@ -1011,7 +1011,7 @@ body {
     100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
-.footer #button {       
+.footer #button {
     animation: shake 0.5s infinite;
 }
 
@@ -1774,7 +1774,7 @@ body {
 .faq-item{
     opacity: 0;
     transform: translateY(20px);
-    transition: opacity 1.5s ease, transform 1.5s ease;
+    transition: opacity 1.5s ease;
   }
 
   /* Scroll edildiğinde faq-item'ları görünür hale getirin */
@@ -1816,7 +1816,7 @@ body {
 .section-content .media {
     opacity: 0;
     transform: translateY(20px);
-    transition: opacity 2s ease, transform 1s ease;
+    transition: opacity 2s ease;
 }
 
 /* Scroll edildiğinde faq-item'ları görünür hale getirin */
@@ -1905,3 +1905,21 @@ body {
       }
 
 
+      .answer {
+      display: none;
+      }
+      .active .plus-icon::after {
+      content: "🗘";
+      }
+      .question.active .plus-icon::after {
+      content: "      ";
+      }
+
+
+      .carousel-item {
+      opacity: 0;
+      transition: opacity 1s ease;
+      }
+      .carousel-item.active {
+      opacity: 1;
+      }
