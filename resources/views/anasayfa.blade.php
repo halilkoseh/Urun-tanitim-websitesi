@@ -32,7 +32,7 @@
          </div>
 
 
-        <script>
+     <script>
             document.addEventListener("DOMContentLoaded", function () {
                 var elementsToShow = document.querySelectorAll(".col-gl-4");
 

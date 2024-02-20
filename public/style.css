@@ -689,7 +689,7 @@ input {
 .popup {
     display: none;
     position: absolute;
-    top: 755%;
+    top: 740%;
     right: 50%;
     transform: translate(50%, -50%);
     background-color: white;
