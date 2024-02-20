@@ -18,7 +18,7 @@
                          <h4>TOC Grup A.Ş</h4>
                          <p><br /></p>
                          <p>
-                            <strong>
+                            <strong class="custom-color">
                             Personel bilgilerini güvenli bir şekilde saklamamızı, izin yönetimini hızlıca yapmamızı sağlıyor. <br />
                             Verimliliği artırıyor, kullanımı kolay ve destek ekibi hızlı.
                             </strong>
@@ -30,12 +30,17 @@
                       <div class="detail-box">
                          <h4>MFE Teknoloji A.Ş.</h4>
                          <p><br /></p>
-                         <p>
-                            <strong>
-                            İnsan kaynakları ve muhasebe işleyişinde hayal ettiğimiz dijital dönüşümü gerçekleştirdik, <br />
-                            teşekkürler Extra Sistem ... <br />
-                            </strong>
-                         </p>
+                         <<style>
+                            .custom-color {
+                                color: #818992;
+                            }
+                        </style>
+
+                        <p>
+                            <strong class="custom-color">İnsan kaynakları ve muhasebe işleyişinde hayal ettiğimiz dijital dönüşümü gerçekleştirdik, <br />
+                            teşekkürler Extra Sistem ...</strong>
+                        </p>
+
                          <img src="{{ asset('images/mfeteknoloji.png') }}" alt="" />
                       </div>
                    </div>

@@ -1033,6 +1033,7 @@ body {
     padding: 45px 65px 35px 65px;
     -webkit-box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
 }
 
 .client_section .detail-box h4 {
