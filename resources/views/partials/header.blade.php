@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg">
     <div class="container">
        <a class="navbar-brand navbar-logo" href="#anasayfa">
-       <img src="images/unnamed-removebg-preview1.png" alt="logo" class="logo-1">
+       <img src="{{ asset('images/unnamed-removebg-preview1.png') }}" alt="logo" class="logo-1">
        </a>
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
        <i class="fa-solid fa-bars" style="color: #000000;"></i>

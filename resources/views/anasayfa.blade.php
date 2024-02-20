@@ -15,6 +15,23 @@
         @include('partials.contact')
         @include('partials.footer')
 
+
+        <div class="cookie-popup" id="cookiePopup">
+            <p>Sitemizde teknik     olarak zorunlu olan çerezler kullanılmakta ve sizlere daha iyi bir hizmet sunabilmek için
+               işlenmektedir. <br>
+               Detaylı bilgi için <a
+                  href="https://www.kvkk.gov.tr/SharedFolderServer/CMSFiles/fb193dbb-b159-4221-8a7b-3addc083d33f.pdf"
+                  style="color:#ACADAF;">KVKK Aydınlatma Metni</a>'ni inceleyebilirsiniz.
+            </p>
+            <button class="cookie-btn" onclick="acceptCookies()">Anladım, kabul ediyorum</button>
+         </div>
+
+         <div id="popup" class="popup" align="center">
+            <img src="{{ asset('images/tikişareti.png') }}" alt="Tik İşareti" class="tick-icon">
+            <p>Mesajınız alınmıştır, teşekkür ederiz.</p>
+         </div>
+
+
         <script>
             document.addEventListener("DOMContentLoaded", function () {
                 var elementsToShow = document.querySelectorAll(".col-gl-4");
@@ -36,8 +53,7 @@
                     var rect = el.getBoundingClientRect();
                     return rect.top >= 0 && rect.left >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && rect.right <= (window.innerWidth || document.documentElement.clientWidth);
                 }
-            });
-        </script>
+            });  </script>
 
 
        <script>
@@ -248,10 +264,7 @@
                     window.addEventListener("scroll", callback);
                 }
             });
-        </script>
-
-
-       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        </script>   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
 
        <script>
