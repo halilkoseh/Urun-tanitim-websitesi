@@ -9,16 +9,16 @@
                     </div>
                     <div style="text-align: center; margin-top: 20px;">
                         <a href="https://twitter.com/extrasistem" style="margin-right: 10px;">
-                            <img src="{{ asset('images/twitter.png') }}" alt="Twitter Icon" height="25" />
+                            <img src="{{ asset('images/twitter.png') }}" alt="Twitter Icon" height="25" style="border-radius:999px" />
                         </a>
                         <a href="https://www.instagram.com/extrasistem/" style="margin-right: 10px;">
-                            <img src="{{ asset('images/instagram.png') }}" alt="Instagram Icon" height="25" />
+                            <img src="{{ asset('images/instagram.png') }}" alt="Instagram Icon" height="25" style="border-radius:999px" />
                         </a>
                         <a href="https://www.youtube.com/@extrasistem" style="margin-right: 10px;">
-                            <img src="{{ asset('images/youtube.png') }}" alt="YouTube Icon" style="color: #ff0000; font-size: 12px; height: 25px;" />
+                            <img src="{{ asset('images/youtube.png') }}" alt="YouTube Icon" style="color: #ff0000; font-size: 12px; height: 25px; border-radius:999px; " />
                         </a>
                         <a href="https://www.linkedin.com/company/101549029/admin/feed/posts/">
-                            <img src="{{ asset('images/pngwing.com (3).png') }}" alt="LinkedIn Icon" height="27" />
+                            <img src="{{ asset('images/pngwing.com (3).png') }}" alt="LinkedIn Icon" height="27" style="border-radius:999px" />
                         </a>
                     </div>
                 </div>

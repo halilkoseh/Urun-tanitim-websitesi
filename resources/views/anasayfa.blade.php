@@ -51,12 +51,39 @@
 
                 function isElementInViewport(el) {
                     var rect = el.getBoundingClientRect();
-                    return rect.top >= 0 && rect.left >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && rect.right <= (window.innerWidth || document.documentElement.clientWidth);
+                    return rect.top >= -960 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)*2.0;
                 }
             });  </script>
 
 
-       <script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var faqSection = document.querySelector(".section-content");
+        var faqItems = document.querySelectorAll(".section-content .media");
+
+        function animateFaqItems() {
+            faqItems.forEach(function (item) {
+                if (isElementInViewport(item)) {
+                    item.classList.add("animate");
+                } else {
+                }
+            });
+        }
+
+        window.addEventListener("scroll", animateFaqItems);
+
+        function isElementInViewport(el) {
+            var rect = el.getBoundingClientRect();
+            return rect.top >= 0 && rect.left >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && rect.right <= (window.innerWidth || document.documentElement.clientWidth);
+        }
+    });
+</script>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <script>
             document.addEventListener("DOMContentLoaded", function () {
                 var faqSection = document.querySelector(".section-content");
                 var faqItems = document.querySelectorAll(".section-content .media");
@@ -79,33 +106,29 @@
             });
         </script>
 
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var faqSection = document.querySelector(".faq-section");
+        var faqItems = document.querySelectorAll(".faq-item");
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-
-       <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                var faqSection = document.querySelector(".faq-section");
-                var faqItems = document.querySelectorAll(".faq-item");
-
-                function animateFaqItems() {
-                    faqItems.forEach(function (item) {
-                        if (isElementInViewport(item)) {
-                            item.classList.add("animate");
-                        } else {
-                        }
-                    });
-                }
-
-                window.addEventListener("scroll", animateFaqItems);
-
-                function isElementInViewport(el) {
-                    var rect = el.getBoundingClientRect();
-                    return rect.top >= 0 && rect.left >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && rect.right <= (window.innerWidth || document.documentElement.clientWidth);
+        function animateFaqItems() {
+            faqItems.forEach(function (item) {
+                if (isElementInViewport(item)) {
+                    item.classList.add("animate");
+                } else {
                 }
             });
-        </script>
+        }
+
+        window.addEventListener("scroll", animateFaqItems);
+
+        function isElementInViewport(el) {
+            var rect = el.getBoundingClientRect();
+            return rect.top >= 0 && rect.left >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && rect.right <= (window.innerWidth || document.documentElement.clientWidth);
+        }
+    });
+</script>
+
 
 
        <script>
@@ -225,10 +248,9 @@
                 }
 
                 loop();
-
                 function isElementInViewport(el) {
                     var rect = el.getBoundingClientRect();
-                    return rect.top >= 0 && rect.left >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && rect.right <= (window.innerWidth || document.documentElement.clientWidth);
+                    return rect.top >= -960 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)*2.0;
                 }
 
                 function scroll(callback) {
@@ -238,33 +260,36 @@
         </script>
 
 
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                var elementsToShow = document.querySelectorAll(".col-md-12");
 
-                function loop() {
-                    elementsToShow.forEach(function (element) {
-                        if (isElementInViewport(element)) {
-                            element.classList.add("animate");
-                        } else {
-                        }
-                    });
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var elementsToShow = document.querySelectorAll(".col-md-12");
 
-                    scroll(loop);
-                }
-
-                loop();
-
-                function isElementInViewport(el) {
-                    var rect = el.getBoundingClientRect();
-                    return rect.top >= 0 && rect.left >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && rect.right <= (window.innerWidth || document.documentElement.clientWidth);
-                }
-
-                function scroll(callback) {
-                    window.addEventListener("scroll", callback);
+        function loop() {
+            elementsToShow.forEach(function (element) {
+                if (isElementInViewport(element)) {
+                    element.classList.add("animate");
+                } else {
                 }
             });
-        </script>   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+            scroll(loop);
+        }
+
+        loop();
+
+        function isElementInViewport(el) {
+            var rect = el.getBoundingClientRect();
+            return rect.top >= 0 && rect.left >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && rect.right <= (window.innerWidth || document.documentElement.clientWidth);
+        }
+
+        function scroll(callback) {
+            window.addEventListener("scroll", callback);
+        }
+    });
+</script>   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
 
        <script>
