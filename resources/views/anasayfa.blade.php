@@ -15,7 +15,7 @@
         @include('partials.contact')
         @include('partials.footer')
 
-
+asdasd
         <div class="cookie-popup" id="cookiePopup">
             <p>Sitemizde teknik     olarak zorunlu olan çerezler kullanılmakta ve sizlere daha iyi bir hizmet sunabilmek için
                işlenmektedir. <br>
