@@ -2,10 +2,10 @@
 
 Tanıtım Sunum.pptx dosyasını da inceleyebilirsiniz.
 
-Çalıştırmak için:
-https://github.com/halilkoseh/Urun-tanitim-websitesi.git
-composer install
-nmp i 
-npm run dev
-php artisan serve
+Çalıştırmak için: <br>
+https://github.com/halilkoseh/Urun-tanitim-websitesi.git<br>
+composer install<br>
+nmp i <br>
+npm run dev<br>
+php artisan serve<br>
 
